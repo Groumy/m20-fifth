@@ -46,7 +46,9 @@ Les personnages sont définis par un ensemble de **caractéristiques** :
 s
 
 Les personnages sont définis par un ensemble de **caractéristiques** :
-* **Robustess (ROB)** : Qui est solidement constitué, capable de fournir un effort physique important et de résister à la fatigue.
+
+* **Robustess (ROB)** : 
+    >  Qui est solidement constitué, capable de fournir un effort physique important et de résister à la fatigue.
 * **Agilité (AGI)** 
     > _: Légèreté, souplesse dans les mouvements du corps._
 
