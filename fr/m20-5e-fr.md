@@ -1,4 +1,4 @@
-# M20 5e: Édition d'Adamantine 
+# M20 5e: Édition Groumy 
 
 [TOC]
 
@@ -39,42 +39,68 @@ M20 5e sera plus facile à comprendre si vous êtes déjà familier avec les RPG
 
 ### Statistiques
 
-Il y a 3 statistiques : Force (**FO**), Dextérité (**DEX**) et Esprit (**ESP**). 
+Il y a 4 statistiques : 
 
-Lancez 4d6, jetez le dé le plus bas. Faites le total des 3 dés restants et allouez-les à l'une des statistiques. Répétez l'opération pour les autres statistiques.
+* la Force (**FOR**) 
+* l'Agilité (**AGI**)
+* l'Esprit (**ESP**)
+* la Volonté (**VOL**) 
 
-Alternativement, vous pouvez utiliser les valeurs 15, 12, 8.
+### Compétences
 
-Bonus Stat = (STATISTIQUE-10)/2, arrondi à l'inférieur.
+Il y a 5 compétences : 
+
+* **Athlétisme** :  Pour tout ce qui a trait aux exploits physiques.
+* **Communication** : Pour tout ce qui a trait à interragir avec les autres.
+* **Connaissance (Sécialisation)** : Pour tout ce qui à trait aux connaissance en vers une spécialisation précise.
+* **Furtivité** : Pour tout ce qui a trait à être discret.
+* **Perception** : Pour tout ce qui a trait aux sens.
+
+#### Connaissances
+
+La compétence de Connaissance differt des autres, car elle peut être pris plusieurs fois par un même personnage, mais en identifiant une spécialité différente à chaque fois.
+
+Voici des exemples de spécialité dans les connaissances :
+
+* **Connaissance (Arcane)** : Pour tout ce qui a trait à la magie.
+* **Connaissance (Nature)**: Pour tout ce qui a trait à la nature.
+* **Connaissance (Traditions)**: Pour tout ce qui a trait aux connaissances des mythes et légendes.
+
+#### Degrée de difficultés communs
+
+* **Facile**: 10 
+* **Moyen**: 15
+* **Durt**: 20 
+
+### Jets de sauvegardes
 
 ### Races
 
-**Les humains** : +1 à toutes les statistiques
-
-**Races magiques** (ex: elfes, gnomes, etc.) : +2 ESPRIT
-
-**Races robuste** (ex: Nains, 1/2-Orques) : +2 STR
-
-**Courses rapides** (ex: Demi-elfes) : +2 DEX
+* **Humains** : +1 à deux statistiques
+* **Gnomes**  : +1 ESP
+* **Nains** : +1 STR
+* **Elfes** : +1 AGI
+* **Demi-dragon** : +1 VOL
 
 ### Classes
 
-Les classes sont **Guérrier, Roublard, Magicien et clerc**. Les personnages commencent au niveau 1 avec un **bonus de maitrise** de +2.
+Les classes sont **Guérrier, Roublard, Magicien et Paladin**. 
+Les personnages commencent au niveau 1 avec un **bonus de maitrise** de +2.
 
 #### Guérrier
 
-* **Compétences & maîtrise jds** : Physique, FO Sauvegarde
+* **Compétences & maîtrise jds** : Physique, FOR Sauvegarde
 * **Maîtrise des armures** : Toutes les armures, bouclier.
 * **Endurance améliorée** : +3 à PV par niveau. Lorsque vous
 prenez de courtes 3 PV par dé de repos dépensé..
 * **Attaques multiples** : Vous gagnez une attaque supplémentaire au 5ème , 11ème et 20ème niveau.
-* **Extension de la plage des coups critiques** : Au niveau 3, vous faites un coup critique (crit) si vous faites 19-20. Au niveau 15, vous avez une crit de 18-20.
-* **Augmentation du score d'habileté supplémentaire** : Au niveau 14, vous obtenez une augmentation supplémentaire de votre score d'habileté p5.
+* **Extension de la plage des coups critiques** : Au niveau 3, vous faites un coup critique (crit) si vous faites 19 ou 20. Au niveau 15, si vous faites 18, 19 ou 20.
+* **Augmentation du score d'habileté supplémentaire** : Au niveau 14, vous obtenez une augmentation supplémentaire d'une de vos statistique.
 * **Equipement de départ** : cotte de mailles (+6 AC armure lourde), bouclier, une arme (et munitions si applicable), 10 gp, un pack rapide (voir Equipement)
 
 #### Roublard
 
-* **Compétences & maîtrise jds**: Subterfuge, DEX saves
+* **Compétences & maîtrise jds**: Subterfuge, AGI saves
 * **Maitrise des armures :** Armure légère
 * **Attaque furtive**: Chaque fois que vous avez l'avantage, ou que votre cible est distraite dans un combat en mêlée avec un autre ennemi, vous pouvez ajouter[1/2-niveau, arrondi] d6 à vos dégâts.
 * **Action de ruse**: En bonus, vous pouvez vous Cacher ou Foncer.
@@ -108,23 +134,6 @@ Chaque personnage doit  choisir un historique qui lui permet de maîtriser une c
 
 
 > **Règle facultative (spécialisation)**: Si un PJ a un historique qui lui permet d'acquérir une compétence qu'il a déjà de par sa classe, il peut ajouter 2x sa prime de compétence aux jets de d20 
-
-### Compétences et jets de sauvegardes
-
-Il n'y a que 4 compétences : **Physique, subterfuge, connaissance et communication**. jet de dé égal ou supérieur au **D**egrés de **D**ifficulté donnée (**DD** ou **DC** ) ou au jet opposé pour réussir. 
-
-**Caractéristique/Sauvegarde du jet = d20 + bonus statistique + (bonus de compétence)**.
-
-Par exemple, l'escalade utiliserait FORCE + bonus physique. Éviter une chute de pierre, c'est DEX + bonus physique. Trouver un piège est un bonus ESPRIT + Subterfuge. Désactiver un piège est un bonus DEX + Subterfuge.
-
-#### Commun DD ou DC (degrés de difficultées)
-
-* **Vraiment facile**: 5 
-* **Facile**: 10 
-* **Moyen**: 15
-* **Durt**: 20 
-* **Trés durt**: 25  
-* **Quasi impossible**: 30
 
 #### Advantage & Désavantage
 
@@ -168,7 +177,7 @@ Vous pouvez faire un cantrip endommageant en utilisant le tableau ci-dessous - u
 | Points | portée | Damage | Notice | Effets Additionell  |
 |:-:|:-:|:-:|:-:|:-:|
 | 1 | Touch | 1d4 |Attaque Magi | Rayons séparrer |
-| 2 | 10' | 1d6 | Jds DEX | Pull 10' closer to you |
+| 2 | 10' | 1d6 | Jds AGI | Pull 10' closer to you |
 | 3 | 30' | 1d8 | Jds ESP | |
 | 4/5| 60' | 1d10 |
 | 5 | 120' | 1d12 |
@@ -192,24 +201,24 @@ Au lieu de cantrips endommagent , vous pouvez choisir l'un des cantrips utilitai
 * **Resistance**: Le sujet obtient +1d4 sur un jds. Durée 1 min ou jusqu'à utilisation.
 
 ## Combat
-Points de vie = (1d8 + bonus FO)/Niveau. Si PV atteint 0, inconscient et proche de la mort. A chaque round, faites des jets de d20 non modifiés pour éviter la mort. DD 10, doit obtenir trois succès avant trois échecs. 1 est un double échec 20 est un miracle vous revenez a 1 PV immédiatement
+Points de vie = (1d8 + bonus FOR)/Niveau. Si PV atteint 0, inconscient et proche de la mort. A chaque round, faites des jets de d20 non modifiés pour éviter la mort. DD 10, doit obtenir trois succès avant trois échecs. 1 est un double échec 20 est un miracle vous revenez a 1 PV immédiatement
 sous le seuil de 0 si vos dégât subit sont = a votre maximum de PV vous êtes mort.
 
-Lancez d20 + bonus DEX pour l'ordre d'initiative. Tout le monde peut bouger (30 pieds) et effectuer une action à chaque tour. Les actions comprennent : un mouvement supplémentaire (élancé), jeter un sort et attaquer. En outre, une seule action bonus peut être effectuée si elle est accordée par une caractéristique de classe, un sort ou une autre aptitude.
+Lancez d20 + bonus AGI pour l'ordre d'initiative. Tout le monde peut bouger (30 pieds) et effectuer une action à chaque tour. Les actions comprennent : un mouvement supplémentaire (élancé), jeter un sort et attaquer. En outre, une seule action bonus peut être effectuée si elle est accordée par une caractéristique de classe, un sort ou une autre aptitude.
 
 
-* **Bonus attaque de mélée = bonus FO + bonus de maîtrise**
-* **Bonus att de projectile = bonus DEX + bonus de maîtrise**
+* **Bonus attaque de mélée = bonus FOR + bonus de maîtrise**
+* **Bonus att de projectile = bonus AGI + bonus de maîtrise**
 * **Bonus att Magique = bonus ESP + bonus de maîtrise** 
 
 Ajoutez le bonus d'attaque au jet de d20. Si la somme est = ou supérieure à la classe d' armure (CA) de votre adversaire, vous toucher. Un 20 naturel est automatiquement un coup critique faisant deux fois plus de dégâts.
 
-Ajoutez le bonus FO aux dégâts de mêlée et le bonus DEX aux dégâts de projectiles.
+Ajoutez le bonus FOR aux dégâts de mêlée et le bonus AGI aux dégâts de projectiles.
 
-**Classe d' Armure (CA) = 10 + bonus Armure + (bonus DEX).**
+**Classe d' Armure (CA) = 10 + bonus Armure + (bonus AGI).**
 
 > #### Règles facultatives
-> * **Finesse**: Les Guerriers et les Roublards peuvent remplacer leur bonus de FO par leur bonus DEX pour calculer leur bonus attaque de mélée ( Bonus att de Mélée = bonus DEX + bonus de maîtrise  si ils manient une arme légère.
+> * **Finesse**: Les Guerriers et les Roublards peuvent remplacer leur bonus de FOR par leur bonus AGI pour calculer leur bonus attaque de mélée ( Bonus att de Mélée = bonus AGI + bonus de maîtrise  si ils manient une arme légère.
 > * **Combat à 2 armes**: Les Guerriers et les Roublards peuvent manier 2 armes et peuvent utiliser une action pour attaquer avec leur arme principale, et une action bonus pour attaquer avec leur 2eme arme si et seulement si la 2eme arme est légère. N'ajoutez pas votre modificateur de capacité aux dégâts de la deuxième arme.
 > * **Grand combat d'armes**: Lorsqu'un Guerrier ou un Roublard brandit une arme à deux mains, il peut relancer les résultats 1 et 2 sur ses dés de dégâts, mais vous devez utiliser le nouveau jet.
 
@@ -238,7 +247,7 @@ Examples:
 ## Evolution des personnages
 Après chaque rencontre, additionnez la **Valeur de Défi (CR)** de chaque monstre, piège, etc. qui a été surmonté. Lorsque le total = 10 x votre niveau actuel, vous passez au niveau suivant. Réinitialisez le total à 0 après avoir avancé.
 
-**Points de vie (PV)**: 1d8 + bonus de FO par niveau
+**Points de vie (PV)**: 1d8 + bonus de FOR par niveau
 
 **Bonus de maîtrise par niveau**: 1-4: +2; 5-8: +3; 10-12: +4; 13-16: +5; 17-20: +6
 
@@ -259,7 +268,7 @@ Quand un personnage reçoit une augmentation de score de compétence, il gagne s
 
 **Animal, petit [ex: belette] (CR 0):** DV 1d4+1 (3 PV), CA 10, morsure +2 ([1])
 
-**Ankheg (CR 2):** DV 6d10+6 (39 pv), CA 14, bite +5 (2d6+3, acid 1d6 [12]) ou pulvérisation acide DD 13 DEX (3d6 [10], save ½)
+**Ankheg (CR 2):** DV 6d10+6 (39 pv), CA 14, bite +5 (2d6+3, acid 1d6 [12]) ou pulvérisation acide DD 13 AGI (3d6 [10], save ½)
 
 **Bugbear (CR 1):** DV 5d8+5 (27 pv), CA 16, morningstar +4 (2d8+2 [11]) or javelin +4 (1d6+2 [5])
 
@@ -273,13 +282,13 @@ Quand un personnage reçoit une augmentation de score de compétence, il gagne s
 
 **Gargoyle (CR 2):** DV 7d8+21 (52 pv), CA 15, griffes +4/+4 (1d6+2 [5]), résistance aux dommages(½ Dégâts des armes non magiques)
 
-**Cube gélatineux  (CR 2):** DV 8d10+40 (84 pv), CA 6, engulf DD 12 DEX (3d6 [10], piégé et prise suffocante 6d6 [21]/tours), transparent (exige DD 15 ESP + Subterfuge bonus pour voir
+**Cube gélatineux  (CR 2):** DV 8d10+40 (84 pv), CA 6, engulf DD 12 AGI (3d6 [10], piégé et prise suffocante 6d6 [21]/tours), transparent (exige DD 15 ESP + Subterfuge bonus pour voir
 
 **Goblin (CR 1/4):** DV 2d6 (7 pv), CA 15, cimetaire +4 (1d6+2 [5]) ou épée courte +4 (1d6+2 [5]
 
 **Griffon (CR 2):** DV 7d10+21 (59 pv), CA 12, griffes +6/+6 (2d6+3 [10])
 
-**Hell Hound (CR 3):** DV 7d8+14 (45 pv), CA 15, bite +5 (1d8+3, fire 2d6 [14]) or fire breath DD 12 DEX (6d6 [21], save ½)
+**Hell Hound (CR 3):** DV 7d8+14 (45 pv), CA 15, bite +5 (1d8+3, fire 2d6 [14]) or fire breath DD 12 AGI (6d6 [21], save ½)
 
 **Hill Giant (CR 5):** DV 10d12+40 (105 pv), CA 13, greatclub +8/+8 (3d8+5 [18]) or rock +8 (3d10+5 [21])
 
@@ -287,7 +296,7 @@ Quand un personnage reçoit une augmentation de score de compétence, il gagne s
 
 **Human Commoner (CR 0):** DV 1d8 (4 pv), CA 10, club +2 (1d4 [2])
 
-**Insect, small [eg Spider] (CR 0):** DV 1d4-1 (1 pv), CA 12, bite +4 ([1], poison DD 9 FO 1d4 [2])
+**Insect, small [eg Spider] (CR 0):** DV 1d4-1 (1 pv), CA 12, bite +4 ([1], poison DD 9 FOR 1d4 [2])
 
 **Kobold (CR 1/8):** DV 2d6-2 (5 pv), CA 12, dagger +6 (1d4+2 [4]) or sling +6 (1d4+2 [4])
 
@@ -297,9 +306,9 @@ Quand un personnage reçoit une augmentation de score de compétence, il gagne s
 
 **Owlbear (CR 3):** DV 7d10+21 (59 pv), AC 13, claws +7/+7 (2d8+3 [12])
 
-**Monstre de rouille (CR 1/2):** DV 5d8+5 (27 pv), CA 14, bite +3 (1d8+1 [5], rouille DD 11 DEX)
+**Monstre de rouille (CR 1/2):** DV 5d8+5 (27 pv), CA 14, bite +3 (1d8+1 [5], rouille DD 11 AGI)
 
-**Shadow (CR 1/2):** DV 3d8+3 (16 pv), CA 12, Aspiration de la vie +4 (2d6+2 [9], -1d4 FO), résistance aux dommages (½ des dommages causés par des armes non magiques)
+**Shadow (CR 1/2):** DV 3d8+3 (16 pv), CA 12, Aspiration de la vie +4 (2d6+2 [9], -1d4 FOR), résistance aux dommages (½ des dommages causés par des armes non magiques)
 
 **Skeleton (CR 1/4):** DV 2d8+4 (13 pv), CA 13, shortsword +4 (1d6+2 [5]) or shortbow +4 (1d6+2 [5])
 
@@ -309,17 +318,17 @@ Quand un personnage reçoit une augmentation de score de compétence, il gagne s
 
 **Troll (CR 5):** DV 8d10+40 (84 pv), CA 15, claw +7/+7/+7 (2d6+3 [10]), regenerate (+10 hp/turn, acid/fire negate)
 
-**Vampire Spawn (CR 5):** DV 16d8+48 (120 pv), CA 15, bite +6/+6 (2d6+3 [10], life absorb DD 15 FO [reduit max HP by dmg taken, increase own HP by ½ dmg]), damage resistance (half damage from non-magical weapons), vampire weaknesses (cause 20 dmg/turn)
+**Vampire Spawn (CR 5):** DV 16d8+48 (120 pv), CA 15, bite +6/+6 (2d6+3 [10], life absorb DD 15 FOR [reduit max HP by dmg taken, increase own HP by ½ dmg]), damage resistance (half damage from non-magical weapons), vampire weaknesses (cause 20 dmg/turn)
 
-**Werewolf (hybrid form) (CR 3):** DV 9d8+18 (58 pv), CA 12, bite +4/+4 (1d8+2 [6], lycanthropy DD 12 FO), damage immunity (seulement blessé par des armes en argent ou de la magie
+**Werewolf (hybrid form) (CR 3):** DV 9d8+18 (58 pv), CA 12, bite +4/+4 (1d8+2 [6], lycanthropy DD 12 FOR), damage immunity (seulement blessé par des armes en argent ou de la magie
 
-**Wight (CR 3):** DV 6d8+18 (45 pv), CA 14, slam +4/+4 (1d6+2 [5], life drain DD 13 FO [reduce max HP by dmg taken]) ou épée longue +4/+4 (1d8+2 [6])
+**Wight (CR 3):** DV 6d8+18 (45 pv), CA 14, slam +4/+4 (1d6+2 [5], life drain DD 13 FOR [reduce max HP by dmg taken]) ou épée longue +4/+4 (1d8+2 [6])
 
-**Wolf (CR 1/4):** DV 2d8+2 (11 pv), CA 13, bite +4 (2d4+2 [7], knock prone DD 11 FO)
+**Wolf (CR 1/4):** DV 2d8+2 (11 pv), CA 13, bite +4 (2d4+2 [7], knock prone DD 11 FOR)
 
-**Wyvern (CR 6):** DV 13d10+39 (110 pv), CA 13, stinger +7/+7 (2d6+4 [11], poison DD 14 FO [24 dmg, save halves])
+**Wyvern (CR 6):** DV 13d10+39 (110 pv), CA 13, stinger +7/+7 (2d6+4 [11], poison DD 14 FOR [24 dmg, save halves])
 
-**Zombie (CR 1/4):** DV 3d8+9 (22 pv), CA 8, slam +3 (1d6+1 [4]), undead fortitude (instead of dying, zombie lives on a DD [5+dmg just taken] jds FO)
+**Zombie (CR 1/4):** DV 3d8+9 (22 pv), CA 8, slam +3 (1d6+1 [4]), undead fortitude (instead of dying, zombie lives on a DD [5+dmg just taken] jds FOR)
 
 ## Equipement
 
@@ -336,9 +345,9 @@ La pièce la plus courante est la pièce d'or (gp). Une pièce d'or vaut 10 piè
 ### Armure
 Le coût de l'armure est égal au bonus CA multiplié par 5, au carré.
 
-* **Armure légère**: +1, +2 add bonus DEX 
-* **Armure Medium**: +3, + 4, +5 add bonus DEX (max 2)
-* **Armure lourde**: +6, +7, +8 pas de bonus DEX, désavantage sur les jets subterfuges impliquant la furtivité
+* **Armure légère**: +1, +2 add bonus AGI 
+* **Armure Medium**: +3, + 4, +5 add bonus AGI (max 2)
+* **Armure lourde**: +6, +7, +8 pas de bonus AGI, désavantage sur les jets subterfuges impliquant la furtivité
 * **Bouclier** (10 gp): +2
 
 Le bardage pour chevaux coûte 4 fois plus cher que l'armure humaine, et pèse 2 fois plus.
@@ -386,7 +395,7 @@ Un jet de 1 à 10 est un échec, un jet de 11 à 20 est un succès. Si vous pens
 ## Annexe A : Options de combat supplémentaires
 Le système de combat du M20 Fifth est conçu pour être simple & facile, mais si vous désirez plus de complexité, les options suivantes sont offertes :
 
-* **Surprise**: Si une créature ne parvient pas à percevoir (ESPRIT + Subterfuge) une autre créature se cachant (DEX + Subterfuge) avant une bataille, elle commence le combat surprise. Une créature surprise est incapable de bouger, d'agir ou de réagir jusqu'à ce que le premier round de combat soit terminé.
+* **Surprise**: Si une créature ne parvient pas à percevoir (ESP + Subterfuge) une autre créature se cachant (AGI + Subterfuge) avant une bataille, elle commence le combat surprise. Une créature surprise est incapable de bouger, d'agir ou de réagir jusqu'à ce que le premier round de combat soit terminé.
 * **Reactions**: Un personnage peut faire une réaction par tour quand ce n'est pas son tour. Les réactions typiques sont les suivantes :
   * **Attaques d'opportunité**: Lorsqu'un adversaire tente d'échapper à votre portée sans faire l'action de Désengagement (voir ci-dessous), vous pouvez faire une seule attaque contre lui.
   * **lancer Certain Sorts**: Des sorts comme Chute de plumes de l'annexe B ou Contre-sort de la 5ème édition des Règles de base peuvent être lancés en réaction plutôt qu'en action.
@@ -395,16 +404,16 @@ Le système de combat du M20 Fifth est conçu pour être simple & facile, mais s
 * **Prêt pour une action**: Au lieu d'agir à votre tour, vous pouvez préparer une action. La préparation d'une action retarde votre action jusqu'à ce que vous utilisiez une réaction pour la déclencher plus tard dans le tour.
 * **mettre ko**: Lorsqu'un attaquant réduit un ennemi à 0 point de dommage avec une attaque en mêlée, l'attaquant peut choisir d’assommer la créature au lieu de lui infliger un coup mortel.
 * **Manoeuvres**: Les manœuvres sont des actions spéciales :
-  * **agripper**: Contre une cible ne dépassant pas le x2 de votre taille, vous pouvez remplacer une attaque par un grappin. Effectuer un jet FO+ Phys opposé par le jet FO + Phys ou DEX + Phys de l'adversaire (à son choix). Si vous réussissez, l'adversaire est saisi, réduisant sa vitesse à 0, et votre vitesse à ½. S'échapper du grappin nécessite une action et une autre série de jds opposés.
-  * **Pousser**: Vous pouvez : - repousser une créature ou la faire tombée au sol (donne désavantagé en combat à distance, mais avantage au combats en mêlée, coûte ½ du mouvement à l'adversaire pour se relever), ou le pousser loin de vous. Faire un jet FO + Phys opposé par le jet FO + Phys ou DEX + Phys de l'adversaire (au choix).
-* **Abrit**: L' abrit s'ajoute à la CA et aux jds DEX d'une créature, comme suit:
+  * **agripper**: Contre une cible ne dépassant pas le x2 de votre taille, vous pouvez remplacer une attaque par un grappin. Effectuer un jet FOR+ Phys opposé par le jet FOR + Phys ou AGI + Phys de l'adversaire (à son choix). Si vous réussissez, l'adversaire est saisi, réduisant sa vitesse à 0, et votre vitesse à ½. S'échapper du grappin nécessite une action et une autre série de jds opposés.
+  * **Pousser**: Vous pouvez : - repousser une créature ou la faire tombée au sol (donne désavantagé en combat à distance, mais avantage au combats en mêlée, coûte ½ du mouvement à l'adversaire pour se relever), ou le pousser loin de vous. Faire un jet FOR + Phys opposé par le jet FOR + Phys ou AGI + Phys de l'adversaire (au choix).
+* **Abrit**: L' abrit s'ajoute à la CA et aux jds AGI d'une créature, comme suit:
   * **A demi-couvert**: +2
   * **3/4 Couvert**: +5
   * **Couverture complète**: non ciblable par des attaques et (la plupart) des sorts
 
 ## Annexe B : Listes de sorts
 
-**Jds and Scaling (Scaling)**: A moins qu'un sort mentionne spécifiquement l'utilisation d'une attaque de sort ou le fait de ne pas accorder de jds, la cible d'un sort peut résister en effectuant un jds: FO/DEX/ESP appropriée. Si un sort inflige des dégâts, le fait de réussir  le jds réduit de ½ les dégâts infligés.
+**Jds and Scaling (Scaling)**: A moins qu'un sort mentionne spécifiquement l'utilisation d'une attaque de sort ou le fait de ne pas accorder de jds, la cible d'un sort peut résister en effectuant un jds: FOR/AGI/ESP appropriée. Si un sort inflige des dégâts, le fait de réussir  le jds réduit de ½ les dégâts infligés.
 
 Certains sorts peuvent être lancé dans un emplacement de sort de niveau (Y+1)ème ou supérieur, il a un effet d'échelle, le sort est plus puissant.
 
@@ -415,7 +424,7 @@ Certains sorts peuvent être lancé dans un emplacement de sort de niveau (Y+1)�
 * **Charme Personne**: Charme une personne durée 1h .
 * **Plume Automne**: 5 créatures tombent lentement pendant 1 minute ou jusqu'à l'atterrissage.
 * **Disque flottant**: Crée un disque horizontal de 3 pieds de diamètre qui peut contenir 500 lb durée 1h.
-* **Armure du Mage**: Donne une CA=13 + DEX pendant 8 heures
+* **Armure du Mage**: Donne une CA=13 + AGI pendant 8 heures
 * **Missile magique**: Pas de jds; Lance 3 fléchettes magiques infligeant chacune 1d4+1 de dégâts ; +1 missile par niveau de sort au-dessus du 1er niveau..
 * **Dormir**: 5 DV de créatures dans un sommeil magique pendant 1 minute. +2DV de créatures pour chaque niveau de sort au-dessus du 1er niveau.
 
@@ -534,7 +543,7 @@ Certains sorts peuvent être lancé dans un emplacement de sort de niveau (Y+1)�
 * **Forbiddance** : Aucun déplacement planaire dans un rayon de 40 000 pieds carrés ne peut avoir lieu. Les créatures d'un type spécifique (céleste, élémentaire, fée, monstre, mort-vivant,) subissent 5d10 de dégâts en entrant dans la zone ou en y commençant un tour.
 * **Dommages** : inflige 14d6 de dégâts à la cible.
 * **Soins** : Soigne 70 PV, toutes maladies, cécité et surdité. +10 PV /niveau de sort au-dessus du 6ème.
-* **Fête des héros** : La nourriture pour 13 créatures donne +2d10 PV et max PV, guérit la maladie et le poison, accorde l'immunité au poison et à l'effroi, et accorde l'avantage sur les jds d'ESPRIT. Durée 1 jour.
+* **Fête des héros** : La nourriture pour 13 créatures donne +2d10 PV et max PV, guérit la maladie et le poison, accorde l'immunité au poison et à l'effroi, et accorde l'avantage sur les jds d'ESP. Durée 1 jour.
 * **Vraie vision** : Vous permet de voir toutes les choses telles qu'elles sont réellement durée 1 h.
 * **Mot de rappel** : Vous téléporte, avec 5 alliés, à l'église ou temple de votre divinité , visité en dernier lieu.
 
@@ -588,7 +597,7 @@ Chaque lanceur de 1er niveau commence par connaître 3 formules magiques, mais d
 * **Energie** (navitas) : Le feu, l'eau liquide, l'air, la magie, l'électricité et (en option) le temps.
 * **Matière** ("materia") : Matériaux solides et insensibles comme la pierre, la glace, le métal, le bois, le cuir, le papier, etc.
 
-Si le lanceur tente simplement d'endommager une autre créature, il lance une attaque magique contre CA. Sinon, la créature doit faire un jet de sauvegarde contre le sort du lanceur de sorts DD. (Le jds approprié est décidé par le MJ. Par exemple, esquiver une boule de feu peut être jds DEX, tandis que résister aux effets du contrôle mental peut être jds ESP.)
+Si le lanceur tente simplement d'endommager une autre créature, il lance une attaque magique contre CA. Sinon, la créature doit faire un jet de sauvegarde contre le sort du lanceur de sorts DD. (Le jds approprié est décidé par le MJ. Par exemple, esquiver une boule de feu peut être jds AGI, tandis que résister aux effets du contrôle mental peut être jds ESP.)
 
 
 **Dommages et soins** commencent à 3d6 au niveau de sort 1, et augmentent de 3d6 à chaque niveau de sort.
@@ -638,15 +647,15 @@ Pour faire des monstres à la volée, utilisez ces règles :
 2. Ajustez les stats offensives (DD jds, bonus maitrise , bonus attaque), et défensives (CA, PV) comme il vous plait. Traitez les monstres ayant un CR  élevé avec stats offensives ou défensives. Pour chaque CR augmentez, vous devez diminuer le CR dans le type de stat opposé. ex: + de bonus attaque & - de PV
 3. Choisissez un modèle de monstre. (xDPT= x fois dommage par tours.)
 
-  * **Aberration**: multiattaque (2 tentacules), tentacules (0,5 DPT dmg, jds FO sauvé ou paralysé. Si la cible est paralysée et que les dommages réduisent la cible à 0 PV, le cerveau de la cible est mangé.)
+  * **Aberration**: multiattaque (2 tentacules), tentacules (0,5 DPT dmg, jds FOR sauvé ou paralysé. Si la cible est paralysée et que les dommages réduisent la cible à 0 PV, le cerveau de la cible est mangé.)
   * **Bête**: multi-attaque (griffe et morsure), griffe (0,5 DPT dmg), morsure (0,5 DPT dmg)
-  * **Draconic**: arme de souffle (DPT dmg, jds DEX pour éviter), morsure (0.5 DPT dmg)
-  * **Élémentaire**: écrasement (0,6 DPT dmg), agonie mortelle (quant la créature meurt, faire jds FO ou prendre 0,6 DPT dmg)
+  * **Draconic**: arme de souffle (DPT dmg, jds AGI pour éviter), morsure (0.5 DPT dmg)
+  * **Élémentaire**: écrasement (0,6 DPT dmg), agonie mortelle (quant la créature meurt, faire jds FOR ou prendre 0,6 DPT dmg)
   * **Fée**: multiattaque (2 attaques), trique de bois/arc court (0.5 DPT dmg), charme fée (jds ESP ou devenir ami 24 h), invisibilité (jusqu'à attaque ou  utilise charme fée)
   * **Diabolique**: aura (début du tour, 0,3 DPT dmg à 5 pieds autours de lui), trident (0,6 DPT dmg), boule de feu (0,6 DPR dmg)
   * **Géant**: punch (DPT dmg), rocher (DPT dmg)
-  * **Morts-vivants**: multi-attaque, aspiration de vie (0,4 DPT, jds FO ou réduire le PV max de la victime par dmg pris), & claquement (0,5 DPR)
-  * **Vermine**: morsure/piqûre (DPT dmg, jds FO ou empoisonné causant un désavantage sur les attaques), toile/glue (jds DEX ou retenu)
+  * **Morts-vivants**: multi-attaque, aspiration de vie (0,4 DPT, jds FOR ou réduire le PV max de la victime par dmg pris), & claquement (0,5 DPR)
+  * **Vermine**: morsure/piqûre (DPT dmg, jds FOR ou empoisonné causant un désavantage sur les attaques), toile/glue (jds AGI ou retenu)
 
 4. Ajoutez toutes les capacités spéciales souhaitées. (ex: vol ou lancer de sorts.)
 5. Ajoutez des résistances (½dommages d'origine spécifique) ou des immunités (non affecté par une source spécifique.) Si vous ajoutez des résistances ou quelques immunités, multipliez les points de dégats par les valeurs suivantes : CR 1-4 (0,5), CR 5-8 (0,7), CR 11-16 (0,8) CR 17+ (1)
@@ -762,7 +771,7 @@ Des classes plus difficiles à utiliser dans votre jeu. Leur mécanique est un p
 
 ### Barde
 
-* **Compétence & jds maîtrisé**: Communication, DEX or ESP jds (choisissez en un)
+* **Compétence & jds maîtrisé**: Communication, AGI or ESP jds (choisissez en un)
 * **Maîtrise des armures**: Armure légère, boucliers
 * **Arcane** or **Lancer de sort divin** (choisissez en un): En tant que clerc ou mage, ou choisissez six sorts de barde de n'importe quel niveau que vous pouvez lancer dans la cinquième édition des règles de base ou SRD.
 * **Inspiration barde** :[bonus ESP] temps par repos court/long, votre musique émouvante inspire un allié qui peut ajouter un d6 à un test de capacité , à un jet de dé de compétences,  ou à un jds de son choix (avant ou après le lancer) dans les 10 minutes qui suivent. Le dé devient un d8 au niveau 5, un d10 au niveau 10 et un d12 au niveau 15.
@@ -774,13 +783,13 @@ Des classes plus difficiles à utiliser dans votre jeu. Leur mécanique est un p
 
 ### Barbare
 
-* **Compétence & jds maîtrisé**: Physique, FO
+* **Compétence & jds maîtrisé**: Physique, FOR
 * **Maîtrise des armures**: Bouclier
-* **Défense sans armure**: Votre CA est égal à 10 + votre bonus DEX + votre bonus FO.
+* **Défense sans armure**: Votre CA est égal à 10 + votre bonus AGI + votre bonus FOR.
 * **Mouvement rapide** : La distance de votre action de déplacement est de 40 ft.
 * **Attaques Multiple** : Vous gagnez une attaque supplémentaire au niveau 5.
 * **Dégâts causés par la rage** : Vos dégâts de rage sont de +2. Au niveau 9, il passe à +3, et au niveau 16 à +4.
-* **Rage** : Vous pouvez entrer en rage sauvage une minute comme action bonus,[prof. bonus] fois par jour. En faisant rage, vous profitez des contrôles de compétences basés sur les FO et des sauvegardes FO, vous ajoutez vos dégâts de rage aux dégâts d'attaque en mêlée, et vous gagnez en résistance aux dégâts (demi-dommages) au matraquage, au perçage et à l'incision. De plus, vous ne pouvez pas être effrayé ou charmé en faisant rage. Au 3ème niveau, vous obtenez la possibilité d'entrer dans une **frénésie épuisante**, ce qui vous permet de faire des attaques en bonus pendant toute la durée de la rage, et à la sortie de votre rage vous donnant un désavantage sur tous les jets jusqu'à ce que vous preniez un long repos.
+* **Rage** : Vous pouvez entrer en rage sauvage une minute comme action bonus,[prof. bonus] fois par jour. En faisant rage, vous profitez des contrôles de compétences basés sur les FOR et des sauvegardes FOR, vous ajoutez vos dégâts de rage aux dégâts d'attaque en mêlée, et vous gagnez en résistance aux dégâts (demi-dommages) au matraquage, au perçage et à l'incision. De plus, vous ne pouvez pas être effrayé ou charmé en faisant rage. Au 3ème niveau, vous obtenez la possibilité d'entrer dans une **frénésie épuisante**, ce qui vous permet de faire des attaques en bonus pendant toute la durée de la rage, et à la sortie de votre rage vous donnant un désavantage sur tous les jets jusqu'à ce que vous preniez un long repos.
 * **Attaque téméraire** : Vous pouvez choisir d'attaquer imprudemment, vous donnant un avantage sur les attaques mais donnant à vos adversaires un avantage sur les attaques contre vous jusqu'au début de votre prochain tour.
 * **Critique brutal**: Au niveau 9, vos coups critiques font x3 de dégâts au lieu de x2.
 * **Equipement de départ** : une arme, 10 gp, un pack rapide (voir Equipement)
@@ -789,9 +798,9 @@ Des classes plus difficiles à utiliser dans votre jeu. Leur mécanique est un p
 
 ### Moine
 
-* **Compétence & jds maîtrisé**: Physique ou Connaissances (en choisir une), jds FO ou DEX
+* **Compétence & jds maîtrisé**: Physique ou Connaissances (en choisir une), jds FOR ou AGI
 * **Maîtrise des armures**: Aucunes
-* **Défense sans armure** : CA=10 + bonus DEX + bonus ESP.
+* **Défense sans armure** : CA=10 + bonus AGI + bonus ESP.
 * **Déplacement sans armure** : Votre déplacement est de 40 ft. Au 6e niveau, il devient 45 pieds, 10e - 50 ft, 14e - 55 pieds et 18e - 60 ft. De plus, au 9e niveau, vous pouvez remonter les surfaces verticales et traverser les liquides sans tomber tant que vous êtes en mouvement.
 * **Attaques Multiple** : attaque supplémentaire au 5ème niveau.
 * **Arts martiaux** : Votre attaque non armée inflige des dégâts d4, et compte comme magie pour contourner les résistances et immunités. Au 5ème, cela devient un d6, un 11ème un d8, et un 17ème un d10.
@@ -835,11 +844,11 @@ temps maximum de transformation= 1/2 niveau arrondi à l' inférieur.
 
 ### Rôdeur
 
-* **Compétence & jds maîtrisé**: physiques ou de connaissances (en choisir une), Jds FO ou DEX (en choisir une)
+* **Compétence & jds maîtrisé**: physiques ou de connaissances (en choisir une), Jds FOR ou AGI (en choisir une)
 * **Maîtrise des armures**: Armure moyenne, boucliers
 * **Attaques multiples** : Vous gagnez une attaque supplémentaire au 5ème niveau. Au niveau 11, vous pouvez utiliser votre action pour effectuer des attaques à distance contre n'importe quel créatures dans un rayon de 10 pieds que vous pouvez voir à portée de votre arme.
 * **Dés de supériorité** (DS) : Un Rôdeur a 4d8 de supériorité pouvant être dépensés en manœuvres, en récupérant sur un court repos. Au niveau 9, les dés deviennent des d10, au niveau 17, des d12. Vous obtenez 1 **DS**  aux niveaux 9 & 17.
-* **Manœuvres de Rôdeur** : Vous avez la possibilité de dépenser DS sur des manœuvres spéciales. Le  DD(degrés de difficulté) des jds = 8 + FO ou DEX (au choix) + compétence. Pour les **attaque Manœuvres**, décrivez un résultat souhaité (p. ex. désarmer l'ennemi, feindre, diriger un ennemi) pendant une attaque. Si l'attaque frappe, ajoutez DS aux dégâts et l'adversaire effectue un lancer d'épargne approprié ou le résultat souhaité se produit. Pour **Manœuvres de réaction** décrivez une réaction que vous faites (parade, riposte) et les règles du MJ auxquelles vous ajoutez ou soustrayez votre DS (en général CA, attaque, dégâts ou santé ennemie) nécessitant un jds approprié si jugé nécessaire.
+* **Manœuvres de Rôdeur** : Vous avez la possibilité de dépenser DS sur des manœuvres spéciales. Le  DD(degrés de difficulté) des jds = 8 + FOR ou AGI (au choix) + compétence. Pour les **attaque Manœuvres**, décrivez un résultat souhaité (p. ex. désarmer l'ennemi, feindre, diriger un ennemi) pendant une attaque. Si l'attaque frappe, ajoutez DS aux dégâts et l'adversaire effectue un lancer d'épargne approprié ou le résultat souhaité se produit. Pour **Manœuvres de réaction** décrivez une réaction que vous faites (parade, riposte) et les règles du MJ auxquelles vous ajoutez ou soustrayez votre DS (en général CA, attaque, dégâts ou santé ennemie) nécessitant un jds approprié si jugé nécessaire.
 * **Conscience primitive** : Vous pouvez communiquer des idées simples aux animaux, lire leur humeur, & leur intention de base.
 * **Cataplasmes de soins** : Chaque jour, vous pouvez faire des cataplasmes à base de plantes, que vous pouvez passer une minute à appliquer à une créature pour les guérir[demi-niveau, arrondi]xd6 points de vie. Les cataplasmes non utilisés expirent après la fin de la journée.
 * **Tueur de colossal** : Une fois par tour, lorsque vous frappez une créature avec une attaque armée, vous infligez 1d8 de dégâts supplémentaires.
