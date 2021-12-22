@@ -30,14 +30,14 @@ Ce jeu utilise des dés à 4, 6, 8, 10, 12 et 20 faces. La notation habituelle p
 
 M20 5e sera plus facile à comprendre si vous êtes déjà familier avec les RPG. Pour le lecteur peu familier, les brèves explications suivantes sont offertes :
 
-<small>**Statistiques** & **Compétences**: sont des représentation numérique des capacités physiques et mentales brutes d'un PJ & de son expertise dans des domaines spécifiques, respectivement. Cel correspond à un bonus, qui sera ajouté aux jets de dés.</small>
+<small>**Attributs** & **Compétences**: sont des représentation numérique des capacités physiques et mentales brutes d'un PJ & de son expertise dans des domaines spécifiques, respectivement. Cel correspond à un bonus, qui sera ajouté aux jets de dés.</small>
 <small>**Race**: L'espèce fantastique à laquelle appartient un personnage.</small>
 <small>**Classe**: Un ensemble de talents et d'aptitudes qui décrivent le métier ou le rôle d'aventurier d'un personnage.</small>
 <small>**Niveau** : A deux significations différentes, à ne pas confondre. **Le niveau de personnage** est le reflet sa croissance générale suite à l'accumulation **de points d'expérience (XP)** en franchissant des obstacles. **Le niveau de sort** est la mesure de la puissance relative d'un sort.</small>
 
 ## Personnages
 
-### Statistiques
+### Attributs
 
 Il y a 4 statistiques : 
 
@@ -52,27 +52,29 @@ Il y a 5 compétences :
 
 * **Athlétisme** :  Pour tout ce qui a trait aux exploits physiques.
 * **Communication** : Pour tout ce qui a trait à interragir avec les autres.
-* **Connaissance (Sécialisation)** : Pour tout ce qui à trait aux connaissance en vers une spécialisation précise.
+* **Connaissance (Spécialisation)** : Pour tout ce qui à trait aux connaissance en vers une spécialisation précise.
 * **Furtivité** : Pour tout ce qui a trait à être discret.
 * **Perception** : Pour tout ce qui a trait aux sens.
+* **Résistance (Attribut)** : Pour tout ce qui a trait à résisté à différents effets.
 
-#### Connaissances
+#### Connaissance et Résistance
 
-La compétence de Connaissance differt des autres, car elle peut être pris plusieurs fois par un même personnage, mais en identifiant une spécialité différente à chaque fois.
+Les compétences de Connaissance et de Resistance differt des autres, car elles peut être pris plusieurs fois par un même personnage, mais doivent être pour une spécialité/statistique différente à chaque fois.
 
 Voici des exemples de spécialité dans les connaissances :
 
 * **Connaissance (Arcane)** : Pour tout ce qui a trait à la magie.
+* **Connaissance (Divin)** : Pour tout ce qui à trait aux dieux et aux religions.
 * **Connaissance (Nature)**: Pour tout ce qui a trait à la nature.
 * **Connaissance (Traditions)**: Pour tout ce qui a trait aux connaissances des mythes et légendes.
 
-#### Degrée de difficultés communs
+### Dé de maîtrise
 
-* **Facile**: 10 
-* **Moyen**: 15
-* **Durt**: 20 
+Lors qu'un personnage à une Compétence pertinante, il peut ajouter un dé de compétence à son D20.
 
-### Jets de sauvegardes
+Si plus d'une Compétence s'applique, il a avantage sur le jet de son dé de compétence.
+
+Les personnages commencent au niveau 1 avec un **dé de maitrise** de **d4**.
 
 ### Races
 
@@ -84,12 +86,11 @@ Voici des exemples de spécialité dans les connaissances :
 
 ### Classes
 
-Les classes sont **Guérrier, Roublard, Magicien et Paladin**. 
-Les personnages commencent au niveau 1 avec un **bonus de maitrise** de +2.
+Les classes sont **Guérrier, Roublard, Magicien et Clerc**. 
 
 #### Guérrier
 
-* **Compétences & maîtrise jds** : Physique, FOR Sauvegarde
+* **Compétences & maîtrise jds** : Athlétisme, Résistance (FOR)
 * **Maîtrise des armures** : Toutes les armures, bouclier.
 * **Endurance améliorée** : +3 à PV par niveau. Lorsque vous
 prenez de courtes 3 PV par dé de repos dépensé..
@@ -98,114 +99,66 @@ prenez de courtes 3 PV par dé de repos dépensé..
 * **Augmentation du score d'habileté supplémentaire** : Au niveau 14, vous obtenez une augmentation supplémentaire d'une de vos statistique.
 * **Equipement de départ** : cotte de mailles (+6 AC armure lourde), bouclier, une arme (et munitions si applicable), 10 gp, un pack rapide (voir Equipement)
 
+
+<!--
+> #### Règles facultatives
+> * **Finesse**: Les Guerriers et les Roublards peuvent remplacer leur bonus de FOR par leur bonus AGI pour calculer leur bonus attaque de mélée ( Bonus att de Mélée = bonus AGI + bonus de maîtrise  si ils manient une arme légère.
+> * **Combat à 2 armes**: Les Guerriers et les Roublards peuvent manier 2 armes et peuvent utiliser une action pour attaquer avec leur arme principale, et une action bonus pour attaquer avec leur 2eme arme si et seulement si la 2eme arme est légère. N'ajoutez pas votre modificateur de capacité aux dégâts de la deuxième arme.
+> * **Grand combat d'armes**: Lorsqu'un Guerrier ou un Roublard brandit une arme à deux mains, il peut relancer les résultats 1 et 2 sur ses dés de dégâts, mais vous devez utiliser le nouveau jet.
+-->
+
 #### Roublard
 
-* **Compétences & maîtrise jds**: Subterfuge, AGI saves
+* **Compétences & maîtrise jds**: Furtivité, Résistance (AGI)
 * **Maitrise des armures :** Armure légère
 * **Attaque furtive**: Chaque fois que vous avez l'avantage, ou que votre cible est distraite dans un combat en mêlée avec un autre ennemi, vous pouvez ajouter[1/2-niveau, arrondi] d6 à vos dégâts.
 * **Action de ruse**: En bonus, vous pouvez vous Cacher ou Foncer.
 * **Equipement de départ**: armure cuir (+1CA armure légère), une arme (& munitions si applicable), outils de voleurs, 15 gp, un pack rapide (voir Equipement)
 
 
-#### Mage
+#### Magicien
 
-* **Compétences & maîtrise jds**:  La connaissance, jds ESP
+* **Compétences & maîtrise jds**:  Connaissance (Arcane), Résistance (ESP)
 * **Maitrise des armures**: non
 * **Style de Sort**: Choisissez **un sort ou un sort mineur (CANTRIP)**, Lancer **le sort** coûte 1 PM de moins.
 * **Sortilège d'Arcane**: Voir rubrique Magie pour plus d'information.
 * **Equipement de départ**: grimoire, baguette, 10 gp, un pack rapide (voir Equipement)
 
-#### Cleric
+#### Clerc
 
-* **Compétences & maîtrise jds**: Communication, Esp Saves
+* **Compétences & maîtrise jds**: Communication ou Connaisance (Divin), Resistance (VOL)
 * **Maitrise des armures**: Armure moyenne, bouclier
-* **Lancement de sorts Divin**: Voir rubrique Magie  pour plus d'information.
+* **Lancement de sorts Divin**: Voir rubrique Magie pour plus d'information.
 * **Canalisation Divinité**: Vous avez la capacité de canaliser l'énergie positive une fois par court/long repos pour repousser les mort ou Préserver la vie. Au niveau 6, 2x/repos, et au niveau 18,  3 x /repos. Pour **repousser les mort** le clerc brandit son symbole sacré forçant tous les morts-vivants dans un rayon de 30 pieds à faire un arrêt ESP (DD 8 + bonus ESP du clerc + compétence du clerc) ou à fuir. Si les morts-vivants obtiennent un 1 lors de leur sauvegarde, ils sont immédiatement détruits. **Preserve Life** restaure[5 * niveau] PV, distribuez ces pv aux alliés à moins de 30 pieds.
-* **Equipement de départ**: armure d' écaille (+4 AC armure moyenne), bouclier, symbole sacré, masse (arme à une main), 15 gp, un pack rapide (voir Equipement).
+* **Equipement de départ**: armure d'écaille (+4 AC armure moyenne), bouclier, symbole sacré, masse (arme à une main), 15 gp, un pack rapide (voir Equipement).
 
 ### Historique
 
-Chaque personnage doit  choisir un historique qui lui permet de maîtriser une compétence et de s'enraciner dans le monde. Chaque historique constitue un excellent point de départ pour les jeux de rôle. Peut-être qu'un criminel a des contacts dans le monde souterrain, peut-être qu'un soldat peut encore obtenir le respect des paysans patriotes, peut-être qu'un sage peut facilement trouver des informations obscures dans les livres quand il le faut.
+Chaque personnage doit choisir un historique qui lui permet de maîtriser une compétence et de s'enraciner dans le monde. Chaque historique constitue un excellent point de départ pour les jeux de rôle. Peut-être qu'un criminel a des contacts dans le monde souterrain, peut-être qu'un soldat peut encore obtenir le respect des paysans patriotes, peut-être qu'un sage peut facilement trouver des informations obscures dans les livres quand il le faut.
 
-* **Contexte de la communication**: Acolyte, Noble, Héros populaire, etc.
-* **Arrière-plans des subterfuges**: Criminel, Gamin des rues, Charlatan, etc.
-* **Connaissances de base**: Sage, Hermite, etc.
-* **Arrière-plans  du physiques**: Soldat, Marin, etc.
+*Exemples* : Acolyte, Noble, Héros populaire, Criminel, Gamin des rues, Charlatan, Sage, Hermite, Soldat, Marin, paysan, etc.
 
+## Résolutions d'actions
 
-> **Règle facultative (spécialisation)**: Si un PJ a un historique qui lui permet d'acquérir une compétence qu'il a déjà de par sa classe, il peut ajouter 2x sa prime de compétence aux jets de d20 
+Lorsque le Maître de Jeu évalue que le résultat d'une action est incertain, il peut demandé au joueur de procéder à un jet d'Attribut.
 
-#### Advantage & Désavantage
+Ainsi, le joueur devra lancer un d20 et y additionné l'attribut identifier par le Maître de Jeu.
+
+S'il y a une compétence qui pourrait s'appliqué à la situation, il peut alors ajouter sont dé de compétence.
+
+### Advantage & Désavantage
 
 Parfois le GM peut choisir de donner un Avantage ou un Désavantage, pour une action en fonction des circonstances. Ceci implique de rouler 2x le D20 et de prendre le meilleur ou le pire des deux dés.
 **en cas d' opposition avantage contre désavantage la règle ne s applique plus.**
 
+### Degrée de difficultés communs
 
-## Magie
-
-Tous les lanceurs de sorts ont des Points de Magie (PM) = à leur PV maxi. Ils peuvent lancer des sorts d'un niveau = ½ x leur niveau de classe, arrondi au supérieur. Utilisez les sorts de l'annexe B ou le système de sorts de l'annexe C. Alternativement, les lanceurs connaissent au total, 6 sorts de n'importe quel niveau de sort auquel ils ont accès à partir de la 5eme édition des règles de base de D&D.
-
-**Concentration** : Certains sorts exigent de la concentration. Lorsqu'il se concentre sur un sort, un lanceur de sorts ne peut lancer qu' un sorts de concentration à la fois . Si un lanceur est touché alors qu'il se concentre sur un sort, il doit faire un jds ESP : DD 10. un succès :le sort est maintenu, échec : le sort est dissipé ou ne fait que 1/2 des dégats.
-
-Lancer un sort, quel qu'il soit, nécessite des points magiques. Le coût est de: **1 + le double niveau du sort lancé**
-
-| Niveau de sort | PM Côut |
-|:-:|:-:|
-| 1 | 3 |
-| 2 | 5 |
-| 3 | 7 |
-| 4 | 9 |
-| 5 | 11 |
-| 6 | 13 |
-| 7 | 15 |
-| 8 | 17 |
-| 9 | 19 |
-
-Le DD du jds pour résister aux  sort d'un lanceur de sorts est : **8 + bonus ESP + bonus de maîtrise**
-
->**Règles facultatives**
->* **Magie du sang**: Au lieu d'avoir PM = PV, un lanceur de sorts a PM =1/2 x HP. En plus, il  peut choisir de diminuer ses PV total en les convertissant en PM à raison de 2 PV = 1 PM.
->* **Lancer un sort méthode Rituel**: Un lanceur de sorts peut lancer n'importe quel sort sans dépenser de PM s'il prend 10 minutes supplémentaires pour lancer le sort.
-
-### Sorts mineur (CANTRIP)
-Un lanceur de sorts commence avec un nbre de CANTRIPs =[bonus ESP]. De types endommagent ou utile,
-un CANTRIP est un sort qui peut être jeté gratuitement sans coût en PM.
-
-#### Dommages causés par les Cantrips
-Vous pouvez faire un cantrip endommageant en utilisant le tableau ci-dessous - un cantrip endommageant peut totaliser jusqu'à 9 points au maximum et doit avoir un rayon d' action, des dommages et une notice. Aux niveaux 5, 11 et 17, ils font un dé de dégâts en plus. Si un cantrip à des rayons séparés, au lieu de dés supplémentaires de dégas à ces niveaux, vous obtenez 1 rayon de plus qui peut cibler des créatures séparées.
-
-| Points | portée | Damage | Notice | Effets Additionell  |
-|:-:|:-:|:-:|:-:|:-:|
-| 1 | Touch | 1d4 |Attaque Magi | Rayons séparrer |
-| 2 | 10' | 1d6 | Jds AGI | Pull 10' closer to you |
-| 3 | 30' | 1d8 | Jds ESP | |
-| 4/5| 60' | 1d10 |
-| 5 | 120' | 1d12 |
-
-> **Règle facultative (type de dommage)**: En plus des effets mentionnés dans le tableau, choisissez n'importe quel type de dégats auquel votre cantrip est admissible en fonction de sa portée :
-> * Touchez : Foudre (Avantage si la cible porte une armure métallique)
-> * 10 ft ou moins: Poison
-> * 30 ft ou moins: Piercing
-> * 60 ft ou moins: Radiant, Psychique, Acide
-> * 120 ft ou moins: Necrotic, Force, Fire
-
-#### CANTRIP utile
-
-Au lieu de cantrips endommagent , vous pouvez choisir l'un des cantrips utilitaires suivants :
-
-* **Prestidigitation**: Effectuer des petits tours pendant 1 heure.
-* **Son Fantôme**: l' alarme sonne pendant 1 minute.
-* **Main du mage**: 2.5 kg de télékinésie. Duré=concentration.
-* **Lumière**: L'objet brille comme une torche pendant 1 heure.
-* **Orientation**: Ajoutez 1d4 sur un test de **C**ompétence. Durèe 1min ou jusqu'à la sortie.
-* **Resistance**: Le sujet obtient +1d4 sur un jds. Durée 1 min ou jusqu'à utilisation.
+* **Facile**: 10 
+* **Moyen**: 15
+* **Durt**: 20 
 
 ## Combat
-Points de vie = (1d8 + bonus FOR)/Niveau. Si PV atteint 0, inconscient et proche de la mort. A chaque round, faites des jets de d20 non modifiés pour éviter la mort. DD 10, doit obtenir trois succès avant trois échecs. 1 est un double échec 20 est un miracle vous revenez a 1 PV immédiatement
-sous le seuil de 0 si vos dégât subit sont = a votre maximum de PV vous êtes mort.
-
-Lancez d20 + bonus AGI pour l'ordre d'initiative. Tout le monde peut bouger (30 pieds) et effectuer une action à chaque tour. Les actions comprennent : un mouvement supplémentaire (élancé), jeter un sort et attaquer. En outre, une seule action bonus peut être effectuée si elle est accordée par une caractéristique de classe, un sort ou une autre aptitude.
-
+Points de vie = (1d8 + bonus FOR)/Niveau. 
 
 * **Bonus attaque de mélée = bonus FOR + bonus de maîtrise**
 * **Bonus att de projectile = bonus AGI + bonus de maîtrise**
@@ -217,17 +170,24 @@ Ajoutez le bonus FOR aux dégâts de mêlée et le bonus AGI aux dégâts de pro
 
 **Classe d' Armure (CA) = 10 + bonus Armure + (bonus AGI).**
 
-> #### Règles facultatives
-> * **Finesse**: Les Guerriers et les Roublards peuvent remplacer leur bonus de FOR par leur bonus AGI pour calculer leur bonus attaque de mélée ( Bonus att de Mélée = bonus AGI + bonus de maîtrise  si ils manient une arme légère.
-> * **Combat à 2 armes**: Les Guerriers et les Roublards peuvent manier 2 armes et peuvent utiliser une action pour attaquer avec leur arme principale, et une action bonus pour attaquer avec leur 2eme arme si et seulement si la 2eme arme est légère. N'ajoutez pas votre modificateur de capacité aux dégâts de la deuxième arme.
-> * **Grand combat d'armes**: Lorsqu'un Guerrier ou un Roublard brandit une arme à deux mains, il peut relancer les résultats 1 et 2 sur ses dés de dégâts, mais vous devez utiliser le nouveau jet.
+Si un personnage subit plus de dégats qu'il ne lui reste de points de vie, il blessé :
+* Il est À Terre
+* Il reçois un point de Blessure
+* Il est réduit à 1 PV
+
+Si un personnage reçois un 3e point de Blessure :
+* Il est Neutralisé
+* Il pert 1 Points de Vie de façon permanente
+* Il est immunisé à tous les dégâts d'ici la fin du combat
+* Il sera réanimé automatiquement à la fin du combat (pas avant)
+* Chaque membre du groupe à une pénalité de 10 XP
 
 ### Guérison naturelle
 Les personnages ont des dés de repos égaux à leur niveau.
 
-**Un repos court** dure 1 H, et un personnage peut dépenser des dés de repos pour regagner 1d8 + points de vie bonus STR par dé. Les lanceurs de sorts regagnent 2x leur valeur de niveau sur un court repos.
+**Un repos court** dure 10 min, et un personnage récupère la moitié de leur points de vies manquants.
 
-**Un long repos** dure 8 H. Un personnage regagne tous ses points de vie et ses points magiques, et la moitié de ses dés de repos totaux. Les lanceurs de sorts regagnent tous leurs points magiques sur un long repos.
+**Un long repos** dure 8 H. Un personnage regagne tous ses points de vie et ses points de magie.
 
 ### Dangers improvisés et pièges
 Utilisez les informations ci-dessous pour improviser des dégâts pour des choses comme être poussé dans un feu de camp ou tomber dans la lave.
@@ -245,22 +205,425 @@ Examples:
 | 17-20 | 16d6 | 28d6 | 38d6 |
 
 ## Evolution des personnages
-Après chaque rencontre, additionnez la **Valeur de Défi (CR)** de chaque monstre, piège, etc. qui a été surmonté. Lorsque le total = 10 x votre niveau actuel, vous passez au niveau suivant. Réinitialisez le total à 0 après avoir avancé.
+Après chaque rencontre, additionnez la **Valeur de Défi (CR)** de chaque monstre, piège, etc. Multiplié par 10
+
+Lorsque le total = 100 x votre niveau actuel, vous passez au niveau suivant. Réinitialisez le total à 0 après avoir avancé.
 
 **Points de vie (PV)**: 1d8 + bonus de FOR par niveau
 
-**Bonus de maîtrise par niveau**: 1-4: +2; 5-8: +3; 10-12: +4; 13-16: +5; 17-20: +6
+**Bonus de Compétence par niveau**: 
+Niveau|Dé de Compétence
+:--|--:
+1-4|d4
+5-8|d6
+9-12|d8
+13-16|d10
+17-20|d12
 
-**Ability Score Increases (Casters)**: 4, 8, 12, 16, 19
+**Augmentation du score d'habileté (lanceurs de sorts)**: 4, 8, 12, 16, 19
 
 **Augmentation du score d'habileté (Non-lanceurs de sorts)**: 4, 8, 10, 12, 16, 19
 
-Quand un personnage reçoit une augmentation de score de compétence, il gagne soit +2 à une statistique, soit +1 à deux statistiques (max 20).
+Quand un personnage reçoit une augmentation de score de compétence, il gagne soit +1 à un attribut (max 5).
+## Equipement
+
+### Monnaie
+La pièce la plus courante est la pièce d'or (gp). Une pièce d'or vaut 10 pièces d'argent (pa). Chaque pièce d'argent vaut 10 pièces de cuivre (pc). Une pièce de platine (pp) vaut 10 po.
+
+| Exchange | pc | pa | po | pp |
+|:-:|:-:|:-:|:-:|:-:|
+| piece de cuivre | 1 | 1/10 | 1/100 | 1/1,000 |
+| piece d' argent | 10 | 1 | 1/10 | 1/100 |
+| piece d, or | 100 | 10 | 1 | 1/10|
+| piece de platine| 1,000 | 100 | 10 | 1 |
+
+### Armure
+Le coût de l'armure est égal au bonus CA multiplié par 5, au carré.
+
+* **Armure légère**: +1, +2; plus AGI 
+* **Armure Medium**: +3, + 4, +5; plus AGI (max 2)
+* **Armure lourde**: +6, +7, +8; désavantage sur les jets de Furtivité
+* **Bouclier** (10 gp): +2
+
+Le bardage pour chevaux coûte 4 fois plus cher que l'armure humaine, et pèse 2 fois plus.
+
+### Armes
+
+Utilisez soit des armes tirées des Règles de base de la cinquième édition, soit le tableau ci-dessous pour improviser des armes.
+
+#### dégats des armes/classe (coût des armes)
+| Class | Light  (2 gp) | 1-handed (10 gp) | 2-handed (40 gp) | Ranged (†) |
+|:--|:-:|:-:|:-:|:-:|
+| Guérrier | 1d8 | 1d10 | 1d12 | 1d8 |
+| Rooublard | 1d6 | 1d8 | 2d6 | 1d8 |
+| Magicien | 1d4 | 1d6 | 1d8 | 1d6 |
+| Clerc | 1d4 | 1d6 | 1d10 | 1d6|
+
+† Coût des armes à distance : 50 gp (arme à base de munitions), 1 gp (20 munitions) / 1 gp (arme lancée)
+
+### Autre équipement
+ Pour déterminer un prix raisonnable pour l'équipement, utilisez le tableau suivant (par exemple, un rouleau de lit coûterait 10 gp, puisqu'il s'agit de deux syllabes) :
+
+| Type d'objet | Coût | 
+|:-:|:-:|
+|Objets communs | 1 pc x nombre de syllabes |
+| Équipement d'aventurier/camping | 5 po x nombre de syllabes |
+| Outils spécialisés, Animaux | 10 po x nombre de syllabes |
+| Articles de luxe | 25 po x nombre de syllabes |
+| Objets mortels, animaux dangereux | 100 po x nombre de syllabes |
+	 	 	 	 	 	
+### Paquetage rapide
+Choisissez un paquetage, ou lancez 1d6 pour en sélectionner un au hasard.
+
+* **Pack A** (1-2): sac à dos, poche de ceinture, couvre-lit, lanterne à capuchon, 10 fioles d'huile, silex et acier, pelle, 2 jeux de caltrops, sifflet de signalisation, gourde, rations  (4 jours)
+* **Pack B** (3-4): sac à dos, poche de ceinture, couvre-lit, 10 torches, 4 fioles d'huile, silex et acier, 10 morceaux de craie, 10' steel, miroir, barre à mine, gourde, rations  (4 jours)
+* **Pack C** (5-6): sac à dos, sac de ceinture, couvre-lit, tente, 10 torches, 5 fioles d'huile, flint & steel, corde de 50', grappin, perche de 10', peau d'eau, rations  (4 jours)
+
+## Conseils MJ : En cas de doute.... Souvenez-vous
+Chaque fois que les joueurs veulent essayer quelque chose qui va autour, à travers, ou au-delà des règles telles qu'elles sont écrites, vous pouvez toujours utiliser le "GM's Friend"... la chance de 50%. Ou qu'ils lancent le test qui semble le plus approprié. 
+
+Un jet de 1 à 10 est un échec, un jet de 11 à 20 est un succès. Si vous pensez que la situation justifie que vous les favorisez, attribuez un avantage à leur lancer. Si la situation détermine qu'elles sont entravées, attribuer le désavantage.
+
+----
+
+## Annexe A : Options de combat supplémentaires
+Le système de combat du M20 Fifth est conçu pour être simple & facile, mais si vous désirez plus de complexité, les options suivantes sont offertes :
+
+* **Surprise**: Si une créature ne parvient pas à percevoir (ESP + Subterfuge) une autre créature se cachant (AGI + Subterfuge) avant une bataille, elle commence le combat surprise. Une créature surprise est incapable de bouger, d'agir ou de réagir jusqu'à ce que le premier round de combat soit terminé.
+* **Reactions**: Un personnage peut faire une réaction par tour quand ce n'est pas son tour. Les réactions typiques sont les suivantes :
+  * **Attaques d'opportunité**: Lorsqu'un adversaire tente d'échapper à votre portée sans faire l'action de Désengagement (voir ci-dessous), vous pouvez faire une seule attaque contre lui.
+  * **lancer Certain Sorts**: Des sorts comme Chute de plumes de l'annexe B ou Contre-sort de la 5ème édition des Règles de base peuvent être lancés en réaction plutôt qu'en action.
+* **Désengage**: Un personnage peut prendre une action de désengagement afin de retraiter en toute sécurité sans provoquer une attaque d'opportunité de la part de ses adversaires.
+* **Esquive**: Un personnage peut faire une action d'esquive, en accordant un désavantage sur toutes les attaques jusqu'à son prochain tour.
+* **Prêt pour une action**: Au lieu d'agir à votre tour, vous pouvez préparer une action. La préparation d'une action retarde votre action jusqu'à ce que vous utilisiez une réaction pour la déclencher plus tard dans le tour.
+* **mettre ko**: Lorsqu'un attaquant réduit un ennemi à 0 point de dommage avec une attaque en mêlée, l'attaquant peut choisir d’assommer la créature au lieu de lui infliger un coup mortel.
+* **Manoeuvres**: Les manœuvres sont des actions spéciales :
+  * **agripper**: Contre une cible ne dépassant pas le x2 de votre taille, vous pouvez remplacer une attaque par un grappin. Effectuer un jet FOR+ Phys opposé par le jet FOR + Phys ou AGI + Phys de l'adversaire (à son choix). Si vous réussissez, l'adversaire est saisi, réduisant sa vitesse à 0, et votre vitesse à ½. S'échapper du grappin nécessite une action et une autre série de jds opposés.
+  * **Pousser**: Vous pouvez : - repousser une créature ou la faire tombée au sol (donne désavantagé en combat à distance, mais avantage au combats en mêlée, coûte ½ du mouvement à l'adversaire pour se relever), ou le pousser loin de vous. Faire un jet FOR + Phys opposé par le jet FOR + Phys ou AGI + Phys de l'adversaire (au choix).
+* **Abrit**: L' abrit s'ajoute à la CA et aux jds AGI d'une créature, comme suit:
+  * **A demi-couvert**: +2
+  * **3/4 Couvert**: +5
+  * **Couverture complète**: non ciblable par des attaques et (la plupart) des sorts
+
+## Annexe B : Listes de sortsque niveau de sort.
 
 
+Chaque sorts a une descriptions, mais sont efficacité varie selon le nombre de Points de Magie (PM) utilisé.
+
+Les descriptions sont vague intentionnellement afin d'encourager les lanceurs de sort d'ajouter leur touche personnel.
+
+### Apprendre des sorts
+Lors que vous gagné un niveau, vous pouvez :
+* Apprendre un nouveau sort de niveau 2, ou
+* Augmenter le niveau de 3 sorts de +1 (Max: 10)
+
+### Lancé un sort
+
+Lors que vous lancé un sort, vous devez choisir combien de points vous désirer dépensé. Vous ne pouvez toutefois pas dépassé le niveau que vous avez atteins dans le sort en question.
+
+Après un Repos Long, vous récupérer tous vos Points de Magie.
+
+Le DD du jet de résistance contre les effert d'un sort est : **8 + ATTRIBUT + Dé de Compétence**
+
+### Tours de magies
+
+Vous pouvez lancer une version mineur de vos sort gratuitement, comme si vous aviez investie 0 PM.
+
+Par exemple, vous pourriez faire un Tour de magie avec le sort de téléportation pour téléporté une pièce de monaie de votre main à votre poche.
+
+<!--
+
+Spell
+Level	One Target
+Save Halves Damage	One Target
+Save Negates Damage	Several Targets
+Save Halves Damage	Several Targets
+Save Negates Damage
+Cantrip	—	5 ½ (1d10)	—	3 ½ (1d6)
+1st	11 (2d10)	13 ¾ (3d8)	7 (2d6)	8¾ (2d8)
+2nd	16 ½ (3d10)	20 ⅝ (6d6)	14 (4d6)	17 ½ (5d6)
+3rd	27 ½ (5d10)	33 ¾ (6d10)	21 (6d6)	26 ¼ (4d12)
+4th	33 (6d10)	41 ¼ (10d8)	23 ½ (7d6)	29 ⅜ (8d6)
+5th	44 (8d10)	55 (10d10)	28 (8d6)	35 (10d6)
+6th	55 (10d10)	68 ¾ (15d8)	38 ½ (11d6)	48 ⅛ (14d6)
+7th	60 ½ (11d10)	75 ⅝ (17d8)	42 (12d6)	52 ½ (15d6)
+8th	66 (12d10)	82 ½ (15d10)	45 ½ (13d6)	56 ⅞ (16d6)
+9th	82 ½ (15d10)	103⅛ (16d12)	49 (14d6)	61 ¼ (11d10)
+
+-->
+
+
+### Contrainte
+
+Les sorts requiert une action
+
+Each spell takes 1 action to cast.
+The default range is anything within
+eyesight, no further than 60 feet.
+The default duration for all spells is 10
+minutes (approximately 1 encounter). You
+may end the spell any time before then.
+All spells require speech and gestures, but
+material components are not used,
+except for optional flavor.
+Spells that have temporary effects can not
+be stacked with effects from the same
+spell.
+
+### Sorts de Magicien
+
+Animal
+Blast
+Bolt
+Charm
+Detect
+Enchant
+Entangle
+Fire
+Hide
+Ice
+Illusion
+Light
+Sleep
+Telekinesis
+Teleport
+
+### Sorts de Clerc
+
+Bolt
+Charm
+Detect
+Enchant
+Heal
+Light
+Protect
+Spirit
+Other*
+* choose one spell from Wizard list
+
+### Points de Magie
+
+|Niveau|Points de Magie|
+|:--|--:|
+1|5
+2|10
+3|15
+4|20
+5|25
+6|30
+7|35
+8|40
+9|45
+10|50
+
+### Sorts
+
+#### Animal
+**Par point de magie:** 5 HP
+Summon an animal of the given HP or less
+from the local terrain and befriend it. You
+can communicate with it telepathically,
+using simple words, and it is willing to
+follow simple commands. If the creature
+can fly, it costs +1 SP.
+
+    EXAMPLES
+    1 SP: snake, cat, deer, squirrel
+    2 SP: eagle, owl, wolf
+    3 SP: horse, constrictor snake, panther
+    4 SP: crocodile, black bear, ape
+    5 SP: lion, swarm ( bats, rats, ravens, or insects)
+    6 SP: reef shark, giant eagle
+    7 SP: brown bear
+    8 SP: dire wolf, tiger, giant boar
+    9 SP: hunter shark, rhino
+    10 SP: giant constrictor, sabertoothed tiger
+
+#### Blast
+**Par point de magie:** 1d6 HP
+Create a burst of energy, inflicting the given
+damage to all creatures in a 20' radius of
+the target point. (Reflex Save = ½ damage)
+
+#### Bolt
+**Par point de magie:** 1d10 HP
+Emit an energy bolt or ray at a single
+target. (Reflex Save = ½ damage)
+
+#### Charm
+**Par point de magie:** 6 HP
+Choose one or more humanoid targets who
+are not in combat and have a combined HP
+total of equal or less than the given number
+of hit points. (continued…)
+If a target misses a Will Save, they become
+friendly for the duration or until attacked.
+Persuasion checks are made at Advantage.
+After the spell ends, the targets are aware
+that they were charmed.
+
+#### Detect
+**Par point de magie:** 30 feet
+Within the given radius, you may choose to
+detect nearby traps, or sources of magic, or
+a specific object or person.
+Make a Spellcasting check. Based on the
+success of the roll, you will get a sense of
+the direction and distance of the target(s).
+
+#### Enchant (Bonus Action)
+**Par point de magie:** +2 or ­2
+Grant a bonus or penalty to a single target
+on the next roll or attack they make for a
+single Ability (choose one), including
+damage rolls.
+
+#### Entangle
+**Par point de magie:** +2 5­foot squares
+Create a single one­foot thick area of vines.
+The given area can be distributed however
+you wish, e.g. on the ground (Difficult
+terrain), blocking doorways, on a wall, etc.
+A creature in the area when you cast the
+spell must make a Strength check or be
+Restrained until the spell ends. A
+Restrained creature can use its action to
+make a Strength check to free itself.
+The vines have 10 HP per 5’ square. They
+immediately dissolve in fire or acid.
+
+#### Fire
+**Par point de magie:** +2 5­foot squares
+Create a single area of fire, on the ground
+or as a ½ foot thick wall, in a shape of your
+choice.
+Creatures standing in the fire take 1d10
+damage when it appears and at the end of
+each round they remain inside. (Reflex
+Save = ½ damage)
+Any creature that moves through a wall of
+fire takes 3d10 damage (no save).
+The fire may spread to flammable objects,
+but is extinguished at the end of the
+duration or when the caster ends the spell.
+
+#### Heal
+**Par point de magie:** 1d8 HP
+Restore the given number of hit points to a
+single creature.
+10 hit points of healing may be substituted
+to cure one disease or poison.
+
+#### Hide
+**Par point de magie:** +1d6 Stealth
+A willing target becomes a semi­transparent
+blur or takes on an illusory disguise to
+blend in with their surroundings, gaining
+the given bonus to any Stealth checks.
+The spell ends early if the target makes an
+attack or is attacked.
+
+#### Ice
+**Par point de magie:** +2 5­foot squares
+Create a single area of ice, on the ground or
+as a one­foot thick wall, in a shape of your
+choice.
+An icy floor counts as Difficult terrain.
+Creatures moving on ice or standing on the
+ice at the end of its turn must succeed on a
+Reflex save or fall Prone. An ice wall has 20
+hit points per 5’ section.
+The ice melts at the end of the duration or
+when the caster ends the spell.
+
+#### Illusion
+**Par point de magie:** 3 cubic feet
+Create a single illusion up to the given size,
+which is capable of making sound,
+animating, and moving at a walking pace.
+After one round, intelligent creatures may
+make a Perception (Wis) check to realize it
+is an illusion.
+Example: a human­sized illusion is 2 SP.
+
+#### Light
+**Par point de magie:** +2 Perception
+Emit a magic source of light from an object
+or weapon, comparable in brightness to a
+torch (40­foot radius), for one hour.
+All friendly creatures within the light have
+the given bonus on all vision­based
+Perception rolls within the light radius.
+When entering the light, invisible creatures
+must make a Will save or become visible.
+
+#### Protect
+**Par point de magie:** 1d8 HP
+Grant temporary hit points to a single
+target, until the duration ends.
+You may spend an additional Spell Point to
+grant the target Advantage on all Saves
+until the end of the spell.
+If cast on a closed door, window, chest, etc.,
+it becomes magically sealed until it takes
+enough damage to break the spell. You
+maintain only one “lock” at any given time.
+
+#### Sleep
+**Par point de magie:** 10 HP
+Choose one or more humanoid targets who
+are not in combat and have a combined HP
+total of equal or less than the given number
+of hit points.
+If a target misses a Will Save, they go into a
+sleep­like trance. They awake if they are
+shaken or attacked.
+After they are awakened, they have
+Disadvantage for one round.
+
+### Spirit
+**Par point de magie:** 30 feet
+Create a small glowing spirit through which
+you can remotely see, hear, and speak. It
+may not attack or perform physical actions
+other than movement.
+It can fly to any location within the given
+range, and may move through solid objects.
+You are effectively Blinded while focusing
+on your spirit. You may change focus to
+your spirit and back as an Action.
+If the spirit is attacked, you take the
+damage directly and the spell ends.
+
+#### Telekinesis
+**Par point de magie:** 100 pounds
+Slowly move, turn, lift, or manipulate an
+object or group of similar objects, up to the
+given weight. Make a Spellcasting check to
+perform any movements requiring
+accuracy.
+It can also be used to hold a creature of the
+given weight in place. The target must
+make a Strength check or be Paralyzed. At
+the end of each of its turns, it can make
+another Strength check to break free.
+
+#### Teleport
+**Par point de magie:** 20 feet
+One willing creature is instantly
+transported to a location within the given
+range that is either within eyesight or that
+the caster has seen before.
+You can teleport additional targets by
+spending one extra Spell Point per target.
+After being teleported, any target other than
+the caster must make a Fortitude Save vs
+DC 10 or be Stunned for 1 round.
+
+## Annexe C : 
 ## Bestiaire
 
-**Compétences & jds**: Utilisez le bonus  d'attaque  pour toutes les compétences et jds . Vous pouvez aussi assigner des statistiques au goût et utiliser le bonus statistique + (bonus de maîtrise) comme bonus de compétence..
+**Compétences et résistances**: Utilisez le bonus  d'attaque  pour toutes les compétences et résistances . Vous pouvez aussi assigner des statistiques au goût et utiliser le bonus statistique + (bonus de maîtrise) comme bonus de compétence..
 
 **Explication des blocs**
 
@@ -329,288 +692,6 @@ Quand un personnage reçoit une augmentation de score de compétence, il gagne s
 **Wyvern (CR 6):** DV 13d10+39 (110 pv), CA 13, stinger +7/+7 (2d6+4 [11], poison DD 14 FOR [24 dmg, save halves])
 
 **Zombie (CR 1/4):** DV 3d8+9 (22 pv), CA 8, slam +3 (1d6+1 [4]), undead fortitude (instead of dying, zombie lives on a DD [5+dmg just taken] jds FOR)
-
-## Equipement
-
-### Monnaie
-La pièce la plus courante est la pièce d'or (gp). Une pièce d'or vaut 10 pièces d'argent (pa). Chaque pièce d'argent vaut 10 pièces de cuivre (pc). Une pièce de platine (pp) vaut 10 po.
-
-| Exchange | pc | pa | po | pp |
-|:-:|:-:|:-:|:-:|:-:|
-| piece de cuivre | 1 | 1/10 | 1/100 | 1/1,000 |
-| piece d' argent | 10 | 1 | 1/10 | 1/100 |
-| piece d, or | 100 | 10 | 1 | 1/10|
-| piece de platine| 1,000 | 100 | 10 | 1 |
-
-### Armure
-Le coût de l'armure est égal au bonus CA multiplié par 5, au carré.
-
-* **Armure légère**: +1, +2 add bonus AGI 
-* **Armure Medium**: +3, + 4, +5 add bonus AGI (max 2)
-* **Armure lourde**: +6, +7, +8 pas de bonus AGI, désavantage sur les jets subterfuges impliquant la furtivité
-* **Bouclier** (10 gp): +2
-
-Le bardage pour chevaux coûte 4 fois plus cher que l'armure humaine, et pèse 2 fois plus.
-
-### Armes
-
-Utilisez soit des armes tirées des Règles de base de la cinquième édition, soit le tableau ci-dessous pour improviser des armes.
-
-#### dégats des armes/classe (coût des armes)
-| Class | Light  (2 gp) | 1-handed (10 gp) | 2-handed (40 gp) | Ranged (†) |
-|:--|:-:|:-:|:-:|:-:|
-| Guérrier | 1d8 | 1d10 | 1d12 | 1d8 |
-| Rooublard | 1d6 | 1d8 | 2d6 | 1d8 |
-| Magicien | 1d4 | 1d6 | 1d8 | 1d6 |
-| Clerc | 1d4 | 1d6 | 1d10 | 1d6|
-
-† Coût des armes à distance : 50 gp (arme à base de munitions), 1 gp (20 munitions) / 1 gp (arme lancée)
-
-
-### Autre équipement
- Pour déterminer un prix raisonnable pour l'équipement, utilisez le tableau suivant (par exemple, un rouleau de lit coûterait 10 gp, puisqu'il s'agit de deux syllabes) :
-
-| Type d'objet | Coût | 
-|:-:|:-:|
-|Objets communs | 1 pc x nombre de syllabes |
-| Équipement d'aventurier/camping | 5 po x nombre de syllabes |
-| Outils spécialisés, Animaux | 10 po x nombre de syllabes |
-| Articles de luxe | 25 po x nombre de syllabes |
-| Objets mortels, animaux dangereux | 100 po x nombre de syllabes |
-	 	 	 	 	 	
-### Paquetage rapide
-Choisissez un paquetage, ou lancez 1d6 pour en sélectionner un au hasard.
-
-* **Pack A** (1-2): sac à dos, poche de ceinture, couvre-lit, lanterne à capuchon, 10 fioles d'huile, silex et acier, pelle, 2 jeux de caltrops, sifflet de signalisation, gourde, rations  (4 jours)
-* **Pack B** (3-4): sac à dos, poche de ceinture, couvre-lit, 10 torches, 4 fioles d'huile, silex et acier, 10 morceaux de craie, 10' steel, miroir, barre à mine, gourde, rations  (4 jours)
-* **Pack C** (5-6): sac à dos, sac de ceinture, couvre-lit, tente, 10 torches, 5 fioles d'huile, flint & steel, corde de 50', grappin, perche de 10', peau d'eau, rations  (4 jours)
-
-## Conseils MJ : En cas de doute.... Souvenez-vous
-Chaque fois que les joueurs veulent essayer quelque chose qui va autour, à travers, ou au-delà des règles telles qu'elles sont écrites, vous pouvez toujours utiliser le "GM's Friend"... la chance de 50%. Ou qu'ils lancent le test qui semble le plus approprié. 
-
-Un jet de 1 à 10 est un échec, un jet de 11 à 20 est un succès. Si vous pensez que la situation justifie que vous les favorisez, attribuez un avantage à leur lancer. Si la situation détermine qu'elles sont entravées, attribuer le désavantage.
-
-----
-
-## Annexe A : Options de combat supplémentaires
-Le système de combat du M20 Fifth est conçu pour être simple & facile, mais si vous désirez plus de complexité, les options suivantes sont offertes :
-
-* **Surprise**: Si une créature ne parvient pas à percevoir (ESP + Subterfuge) une autre créature se cachant (AGI + Subterfuge) avant une bataille, elle commence le combat surprise. Une créature surprise est incapable de bouger, d'agir ou de réagir jusqu'à ce que le premier round de combat soit terminé.
-* **Reactions**: Un personnage peut faire une réaction par tour quand ce n'est pas son tour. Les réactions typiques sont les suivantes :
-  * **Attaques d'opportunité**: Lorsqu'un adversaire tente d'échapper à votre portée sans faire l'action de Désengagement (voir ci-dessous), vous pouvez faire une seule attaque contre lui.
-  * **lancer Certain Sorts**: Des sorts comme Chute de plumes de l'annexe B ou Contre-sort de la 5ème édition des Règles de base peuvent être lancés en réaction plutôt qu'en action.
-* **Désengage**: Un personnage peut prendre une action de désengagement afin de retraiter en toute sécurité sans provoquer une attaque d'opportunité de la part de ses adversaires.
-* **Esquive**: Un personnage peut faire une action d'esquive, en accordant un désavantage sur toutes les attaques jusqu'à son prochain tour.
-* **Prêt pour une action**: Au lieu d'agir à votre tour, vous pouvez préparer une action. La préparation d'une action retarde votre action jusqu'à ce que vous utilisiez une réaction pour la déclencher plus tard dans le tour.
-* **mettre ko**: Lorsqu'un attaquant réduit un ennemi à 0 point de dommage avec une attaque en mêlée, l'attaquant peut choisir d’assommer la créature au lieu de lui infliger un coup mortel.
-* **Manoeuvres**: Les manœuvres sont des actions spéciales :
-  * **agripper**: Contre une cible ne dépassant pas le x2 de votre taille, vous pouvez remplacer une attaque par un grappin. Effectuer un jet FOR+ Phys opposé par le jet FOR + Phys ou AGI + Phys de l'adversaire (à son choix). Si vous réussissez, l'adversaire est saisi, réduisant sa vitesse à 0, et votre vitesse à ½. S'échapper du grappin nécessite une action et une autre série de jds opposés.
-  * **Pousser**: Vous pouvez : - repousser une créature ou la faire tombée au sol (donne désavantagé en combat à distance, mais avantage au combats en mêlée, coûte ½ du mouvement à l'adversaire pour se relever), ou le pousser loin de vous. Faire un jet FOR + Phys opposé par le jet FOR + Phys ou AGI + Phys de l'adversaire (au choix).
-* **Abrit**: L' abrit s'ajoute à la CA et aux jds AGI d'une créature, comme suit:
-  * **A demi-couvert**: +2
-  * **3/4 Couvert**: +5
-  * **Couverture complète**: non ciblable par des attaques et (la plupart) des sorts
-
-## Annexe B : Listes de sorts
-
-**Jds and Scaling (Scaling)**: A moins qu'un sort mentionne spécifiquement l'utilisation d'une attaque de sort ou le fait de ne pas accorder de jds, la cible d'un sort peut résister en effectuant un jds: FOR/AGI/ESP appropriée. Si un sort inflige des dégâts, le fait de réussir  le jds réduit de ½ les dégâts infligés.
-
-Certains sorts peuvent être lancé dans un emplacement de sort de niveau (Y+1)ème ou supérieur, il a un effet d'échelle, le sort est plus puissant.
-
-### Sorts d'Arcane
-
-#### 1er niveau
-
-* **Charme Personne**: Charme une personne durée 1h .
-* **Plume Automne**: 5 créatures tombent lentement pendant 1 minute ou jusqu'à l'atterrissage.
-* **Disque flottant**: Crée un disque horizontal de 3 pieds de diamètre qui peut contenir 500 lb durée 1h.
-* **Armure du Mage**: Donne une CA=13 + AGI pendant 8 heures
-* **Missile magique**: Pas de jds; Lance 3 fléchettes magiques infligeant chacune 1d4+1 de dégâts ; +1 missile par niveau de sort au-dessus du 1er niveau..
-* **Dormir**: 5 DV de créatures dans un sommeil magique pendant 1 minute. +2DV de créatures pour chaque niveau de sort au-dessus du 1er niveau.
-
-#### 2éme niveau sorts d'arcane
-
-* **Flèche Acide**: Attaque de sorts à distance ; dégâts 4d4 immédiatement, 2d4 à la fin du tour suivant ; +1d4 immédiatement et +1d4 à la fin du tour suivant par niveau de sort au-dessus du 2ème.
-* **Sphère flamboyante**: Crée une boule de feu roulante contrôlée avec une action bonus, 2d6 de dégâts, dure 1 minute ; + 1d6 par niveau de sort au-dessus du 2ème.
-* **Invisibilité**: Le sujet est invisible pendant 1 heure (concentration) ou jusqu'à ce qu'il attaque.
-* **Déverouiller**: Ouvre une porte verrouillée ou scellée par magie.
-* **Levitation**: Le sujet monte et descend dans votre direction pendant 10 minutes (concentration).
-* **Escalade de l'araignée**: Permet de marcher sur les murs & plafonds pendant 1 heure (concentration.)
-
-#### 3éme niveau de sorts d'Arcane 
-* **Clairvoyance**: Entendre ou voir à distance pendant 10 minutes (concentration.)
-* **Dissipation de la magie**: Annule les sorts et effets magiques.
-* **Boule de feu**: 8d6 de dégâts, 20 pieds de rayon ; +1d6 de dégâts par sort au-dessus du 3e niveau.
-* **Vol**: Le sujet vole à une vitesse de 60 ft pendant 10 min (concentration.) +1 cible par sort au-dessus du 3e niveau.
-* **Toucher vampirique**: Pendant 1 min (concentration), le contacte inflige 3d6 de dégâts lors d'une attaque réussie de sort en mêlée ; le lanceur obtient la 1/2 des dégâts en PV ; +1d6 par niveau de sort au-dessus du 3ème.
-* **Animer les morts**: Créez un squelette ou un zombie à partir d'un cadavre, contrôlé comme action bonus ; +2 morts-vivants par niveau de sort au-dessus du 3ème niveau.
-
-#### 4e niveau de sorts des arcanes
-* **Oeil des arcanes**: Voir à travers l'œil flottant invisible qui se déplace de 30 ft/tour pendant 1h (concentration).
-* **Tentacules noirs**: Les tentacules s'agrippent tous dans un rayon de 20 pieds pendant 1 minute (concentration), infligeant 3d6 de dégâts par round.
-* **Porte dimensionnelle**: téléportation courtes distances..
-* **Tempête de verglas**: Convoque une tempête de verglas d'un rayon de 20 pieds qui inflige des dégâts de 6d8, et réduit de ½ le mouvement pour un round. +1d8 points de dégâts par sort au-dessus du 4ème niveau.
-* **Polymorphe**: Donne à une créature une nouvelle forme pendant 1 heure (concentration.)
-* **Peau de pierre**: réduit 50% des dégats des attaques non magiques. Durée 1 h (concentration.)
-
-#### 5e niveau de sorts des arcanes 
-* **Nuage tueur**: inflige 5d8 de dégâts dans un rayon de 20 pieds ; +1d8 par sort au-dessus du 5ème niveau. Dure 10 minutes (concentration)
-* **Contact Autre Plan**: Vous permet de poser cinq questions à l'entité extraplanaire.
-* **Geas**: Commande une créature, la liant à une tâche spécifique. Dure 1 jour/niveau ou jusqu'à la sortie.
-* **Retenir les monstres**: Paralyser 1  créature durée 1 min (concentration.) +1 cible/niveau de sort au-dessus du 5ème.
-* **Traverser les murs**: Crée un passage à travers un mur de bois ou de pierre pendant 1 heure.
-* **Cercle de téléportation**: Crée un portail temporaire qui mène à un cercle de téléportation permanent sur le même plan.
-
-#### 6e niveau de sorts des arcanes 
-* **Chaîne d' Éclair**: Un éclair saute à travers quatre cibles proches, infligeant des dégâts de 10d8 ; +1 cible par sort au-dessus du 6ème niveau de sort.
-* **Éventualité**: Définit la condition de déclenchement d'un autre sort. Dure 10 jours ou jusqu'au déclenchement.
-* **Désintégrer**: inflige 10d6 + 40 points de dégâts, si la cible est réduite à 0 hp, elle se désintègre ; +3d6 points de dégâts par sort au dessus du 6ème niveau.
-* **Danse Irrésistible**: Forces sujets à danser pendant 1d4+1 tours.
-* **Rayon de soleil**: Durée 1 min (concentration), un faisceau de 60 pieds inflige 6d8 de dégâts par round, et aveugle les victimes.
-* **Vrai Vision**: Vous permet de voir toutes les choses telles qu'elles sont réellement pendant 1 heure..
-
-#### 7e niveau de sorts des arcanes 
-* **Boule de feu à explosion retardée**: 12d6 de dégâts ; vous pouvez retarder l'explosion de 5 coups (concentration) ; +1d6 par niveau de sort au-dessus de la 7ème.
-* **Réalité éthéré**: Voyage dans le  Plan  Ethereal durée 8 h. +3 compagnons/ niveau de sort au-dessus du 7ème.
-* **Doigt de la mort**: La cible subit 7d8 + 30 points de dégâts. Si la cible est tuée par un sort, elle se lève au tour suivant comme un zombie sous votre contrôle.
-* **Décalage de plan**: Jusqu'à huit sujets voyagent vers un autre plan..
-* **Gravité inversée**: Inverse la gravité dans un rayon de 50 pieds pendant 1 minute (concentration.)
-* **Teleportation**: Vous  & 8 créatures max, 100 miles/niveau.
-
-#### 8e niveau de sorts des arcanes
-* **Champ Antimagique**: Nie la magie dans un rayon de 10 pieds pendant 1 heure (concentration).
-* **Clone**: Le duplicata apparaît lorsque l'original meurt.
-* **L'esprit faible**: Le score ESP du sujet tombe à 1 et il subit 4d6 de dégâts.
-* **Le flétrissement épouvantable**: Dégâts de 10d6 dans un rayon de 30 pieds.
-* **Nuage incendiaire**: Le nuage inflige 10d6 de dégâts/ronds pendant 1 minute (concentration.)
-* **Mot de pouvoir Étourdissement**: Étourdit la créature avec 150 PV ou moins pour les 2d4 tours.
-
-#### 9e niveau de sorts des arcanes 
-* **Projection astrale**:  vous et vos compagnons êtes Projetté sur plan Astral.
-* **Gate** : Relie 2 plans pour voyager ou appeler. Ouvert pour 1 tour/niveau.
-* **essaim de météores** : Quatre sphères explosantes infligent chacune 40d6 de dégâts.
-* **power Word kill** : Tue une créature de 100 PV ou moins.
-* **time Stop** : Le temps ralentit vous permettant de prendre 1d4+1 tours d'affilée.
-* **bizarre** : L'illusion effrayante 4d10 dommage/tours les sujets dans un rayon de 30 pieds.
-
-### Sorts Divins
-
-#### 1er niveau de sorts divin
-
-* **bless** : 3 alliés peuvent ajouter 1d4 à chaque jet d'attaque ou de sauvegarde pendant une minute (concentration.) +1 allié pour chaque niveau de sort au-dessus du 1er.
-* **Créez ou détruisez de l'eau** : Créez/détruisez 10 gallons d'eau dans un contenant ouvert ; ou créez de la pluie/détruisez du brouillard dans un cube de 30 pieds cubes ; +2 gallons/+5 pieds cubes par sort au-dessus du 1er niveau.
-* **cure wounds** : Guéri de 1d8 + pv modificateur ESP ; +1d8 PV/niveau de sort au-dessus du 1er.
-* **Détecter la magie** : Connaître la présence de magie dans un rayon de 30 pieds pendant 10 minutes (concentration.) Une action peut être utilisée pour voir l'aura et déterminer de quel type de magie il s'agit.
-* **Blessures de conflit** : Attaque des sorts ; dégâts 3d10 ; +1d10 dégâts par niveau de sort au-dessus du 1er but.
-* **bouclier de la foi** : Une créature gagne +2 AC bonus pendant 10 minutes (concentration.)
-
-
-#### 2em niveau de sorts divin 
-
-* **Aide** : 3 alliés augmentent leur PV max de 5 pendant 8h ; +5 PV/max par niveau de sort au-dessus du 2ème.
-* **Accroître la capacité** : 1 allié gagne de l'avantage sur les tests de capacité de votre choix pendant 1 heure (concentration.) + 1 allié pour chaque niveau de sort au-dessus du 2ème.
-* **Doux Repose** : Conserve un cadavre.
-* **Personne à retenir** : 1 humanoïde est paralysé pendant 1 minute (concentration.) + 1 humanoïde pour chaque niveau de sort au-dessus du 2ème.
-* **Restauration moindre** : Curez la maladie ou mettez fin à la cécité, la surdité,la paralysie ou au poison.
-* **Protection contre le poison** : Une créature est guérie du poison, et pendant une heure, elle subit un demi dommage causé par le poison et a l'avantage d'économiser des lancers pour éviter d'être empoisonnée.
-
-#### 3ème niveau Sorts Divins
-* **Clairvoyance**: Voir ou entendre un endroit familier pendant 10 minutes (concentration.)
-* **Créer de la nourriture et de l'eau**: Nourrit 15 humanoïdes (ou 5 chevaux).
-* **Dissiper la magie**: Dissipe les sorts niveau 3 ou inférieur, ou ceux de niveau supérieur avec DC 10 + niveau du sort. Un niveau de sort +1 est automatiquement dissipé/niveau de sort supérieur au 3ème.
-* **Revivifier**: Restaurez 1 PV à quelqu'un qui est mort depuis moins d'une minute.
-* **Parler avec les morts**: Le mort répond à cinq questions.
-* **Langues**: Parler n'importe quelle langue pendant 1 heure.
-
-#### 4ème niveau Sorts Divins
-* **Bannissement**: Bannit 1 créature dans son plan d'origine (si extraplanaire) ou un demi-plan (si natif) pendant 1 minute. La créature extraplanaire est bannie définitivement si le sort dure une minute entière. +1 créature/ niveau de sort au-dessus du 4ème.
-* **Quartier de la mort**: La prochaine fois que la créature tombe à 0 HP, elle tombe à 1 HP à la place..
-* **Divination**: posez une question à votre dieu sur un but, un événement ou une activité spécifique devant se produire dans les 7 prochains jours, vous recevez une réponse véridique sous la forme d'une courte phrase, d'une rime cryptique ou d'un signe.
-* **Liberté de mouvement**: Le sujet se déplace normalement malgré les obstacles pendant 1 heure.
-* **Localiser une créature**: Apprenez la direction de la créature la plus proche, nommée ou décrite, ou à une créature spécifique à 1000 ft de vous durée 1 h (concentration).
-* **corp de pierre**: Formez 5 pieds cubes de pierre dans n'importe quelle forme.
-
-
-#### 5ème niveau Sorts Divins 
-* **Commune** : La divinité répond à 3 ?? par oui ou par non.
-* **Coups de flammes** : Toutes les créatures dans un rayon de 10 pieds subissent des dégâts de 8d6. +1d6 de dégâts pour chaque niveau de sort supérieur à la 5ème.
-* **Geas** : Commande n'importe quelle créature, l'obligeant à effectuer une tâche spécifique pendant 30 jours ou à subir 5d10 de dégâts. x10 de durée pour chaque niveau de sort supérieur à la 5ème.
-***Grande restauration** : Réduire l'épuisement ou mettre fin au charme, pétrifier, maudire, stat ou réduction PV max .
-* **Guérison en masse des plaies** : 6 créatures dans les 30 pieds guérissent d un nombe de PV= 3d8 + bonus de lancer de sorts . +1d8 / niveau de sort au-dessus du 5ème.
-* **ressusciter les morts** : Restaurez 1 PV à quelqu'un qui est mort depuis moins de 10 jours.
-
-#### 6ème niveau Sorts Divins 
-* **Forbiddance** : Aucun déplacement planaire dans un rayon de 40 000 pieds carrés ne peut avoir lieu. Les créatures d'un type spécifique (céleste, élémentaire, fée, monstre, mort-vivant,) subissent 5d10 de dégâts en entrant dans la zone ou en y commençant un tour.
-* **Dommages** : inflige 14d6 de dégâts à la cible.
-* **Soins** : Soigne 70 PV, toutes maladies, cécité et surdité. +10 PV /niveau de sort au-dessus du 6ème.
-* **Fête des héros** : La nourriture pour 13 créatures donne +2d10 PV et max PV, guérit la maladie et le poison, accorde l'immunité au poison et à l'effroi, et accorde l'avantage sur les jds d'ESP. Durée 1 jour.
-* **Vraie vision** : Vous permet de voir toutes les choses telles qu'elles sont réellement durée 1 h.
-* **Mot de rappel** : Vous téléporte, avec 5 alliés, à l'église ou temple de votre divinité , visité en dernier lieu.
-
-
-#### 7ème niveau Sorts Divins
-
-* **Parole Divine** : Tous les ennemis à l'écoute sont bannis dans leur plan d'origine (s'ils sont extraplanaires), ou subissent un effet dépendant de leur PV actuelle (50 - PV, assourdis pendant[50 moins PV actuelle] minutes ; 30 - PV, aveugles, assourdis et assommés pendant 1 heure ; 20 PV, tués sur le coup).
-* **éthéréalité** : 1 créature devient éthérée. +1 créature pour chaque niveau de sort au-dessus de la 7ème.
-* **Tempête de feu** : Dans un cube de 10 ft. Toutes les créatures subissent des dégâts de feu 7d10. Les objets non surveillés prennent feu.
-* **déplacement dans les plans**:Vous et 8 créatures volontaires êtes téléportés dans un autre plan. Alternativement, lors d'une attaque avec ce sort, une créature hostile est téléportée dans un plan de votre choix.
-* **Régénération** : Les membres coupés , repoussent et se régénèrent 4d8 + 15 HP par round pendant 1 heure.
-* **Résurrection** :  Restaurez 1 PV à quelqu'un qui était mort depuis moins d'un siècle.
-
-#### 8ème niveau Sorts Divins 
-
-* **Champ d'antimatière** : Nie la magie dans un rayon de 10 pieds pendant 1 heure (concentration).
-* **Control météo** : Changer le temps actuel pendant 8 heures (concentration.)
-* **Tremblement de terre** : Provoquer un tremblement de terre dans un rayon de 100 pieds, endommageant les structures et créant des fissures dangereuses. Si une grande structure tombe, elle cause des dégâts de matraquage 5d6.
-* **Aura Sacré** : Dans un rayon de 30 pieds, les alliés ont l'avantage jds, les ennemis ont un désavantage sur les attaques et les démons et les morts-vivants sont aveugles.
-
-
-#### 9ème niveau Sorts Divins
-
-* **Projection astrale** : Projette vous et 8 compagnons sur un plan Astral.
-* **Portail** : : Relie deux plans pour voyager ou appeler. Durée 1 min (concentration.)
-* **Soins de masse** : Guérissez 700 PV à toutes les créatures à portée (répartir au choix) ; guéri aussi toutes les maladies,la cécité & la surdité.
-* **Vraie Résurrection** : Ressuscite une créature, morte dans les 200 dernières années,  avec un nouveau corps.
-
-## Annexe C: le pouvoir des sortiléges
-
-Toute magie exige de posséder un pouvoir et de connaitre des formules magiques : une gestuelle et un domaine de pouvoir divin ou arcanique 
-Chaque lanceur de 1er niveau commence par connaître 3 formules magiques, mais doit connaître au moins une gestuelle et un et un domaine pouvoir divin ou arcanique. Ils apprennent de nouvelles formule magique tous les 3 niveaux (3, 6, 9, etc.).
-
-> **Règles optionnelles**
->
-> * **Magie blanche et noire** : Les clercs tirent leur pouvoir de la magie blanche, et ne peuvent pas utiliser leur magie pour nuire directement à un individu. Les mages tirent leur pouvoir de la magie noire et peuvent ne pas guérir directement un individu.
-> * **Spécialisation élémentaire** : Au début d'une journée, un lanceur qui connaît un sort doit choisir un type particulier de dégâts (acide, feu, etc.) Pour cette journée, il ne peut utiliser le Domaine de l'Energie qu'en fonction de ce type de dégâts. Alternativement, faites en sorte qu'un lanceur de sorts choisisse un type de dégâts en apprenant l'énergie - leur magie n'est capable d'interagir qu'avec ce type d'énergie.
-
-### Les quatre actions
-
-* **Améliorer** ("augeo") : Renforcer, Guérir, Agrandir, Réparer, Affûter, etc.
-* **Diminuer** (infirmo) : Affaiblir, endommager, blesser, réduire, briser, émousser, émousser, détériorer, etc.
-* **Communiquer avec** (defero) : Sentir, lire, chercher, informer, déterminer, comprendre, comprendre, etc.
-**Control** (tempero) : Formez, Maintenez, Commandez, Formez, Dirigez, Dictez, etc. (Le contrôle ne peut être appris qu'après que toutes les autres actions aient été apprises.)
-
-### Les cinq spécialités
-
-* **Corp** (corpus) : Des corps d'êtres vivants, des plantes.
-* **Savoir** (mentus) : La pensée, le sentiment et la partie consciente d'une entité.
-* **Esprit** (animosité) : Essence ou âme. (L'esprit ne peut être appris qu'après que vous ayez au moins trois royaumes et trois actions.)
-* **Energie** (navitas) : Le feu, l'eau liquide, l'air, la magie, l'électricité et (en option) le temps.
-* **Matière** ("materia") : Matériaux solides et insensibles comme la pierre, la glace, le métal, le bois, le cuir, le papier, etc.
-
-Si le lanceur tente simplement d'endommager une autre créature, il lance une attaque magique contre CA. Sinon, la créature doit faire un jet de sauvegarde contre le sort du lanceur de sorts DD. (Le jds approprié est décidé par le MJ. Par exemple, esquiver une boule de feu peut être jds AGI, tandis que résister aux effets du contrôle mental peut être jds ESP.)
-
-
-**Dommages et soins** commencent à 3d6 au niveau de sort 1, et augmentent de 3d6 à chaque niveau de sort.
-
-Pour **d'autres effets** en plus des dégâts simples et de la guérison, lancez le dé à partir de 2d6 au niveau de sort 1, et augmentez de 2d6 à chaque niveau de sort.
-
-* Si la cible rate son jds et que ses pv actuel sont inférieur aux dégâts infligés, elle est instantanément affectée par le sort mais ne subit aucun dommage.
-* Si la cible rate son jds, et que son PV actuel est supérieur aux dégâts infligés, elle subit le jet de dé mais n'est pas affectée par le sort.
-* Si la cible réussit son jet de sauvetage, elle subit la moitié des dégâts infligés.
-
-Les effets positifs utilisés sur les cibles volontaires contournent le besoin de jds et prennent effet immédiatement. Une créature ne peut être transformée qu'en quelque chose d'égal ou de moindre CR/niveau par rapport à elle-même.
-
-**Durée** : Les sorts qui affectent les objets inanimés sont généralement permanents ; les feux créés par magie, etc., s'éteignent naturellement. Les créatures vivantes sont affectées pendant 1 round par niveau de sort du sort qui les affecte. Un lanceur de sorts peut se concentrer sur un sort afin de le garder actif plus longtemps. Pendant sa concentration, il ne peut lancer aucun sort exépté des dégâts simples, sorts de soins & cantrips.
 
 ## Annexe D : Objets magiques (OM)
 
