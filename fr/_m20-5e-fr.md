@@ -1,16 +1,22 @@
-# M20 5e: Édition Groumy 
+# Donjon et Dragons
+## Pour mes petits trésors !
 
-[TOC]
+![](https://www.gameoutonline.com/wp-content/uploads/2020/01/DD-dnd-kids-abc.jpg)
 
+<div class="page"/>
+
+<!-- 
 ## Qu'est-ce que c'est ?
 
 Il s'agit d'une version réduite et subminiaturisée de la cinquième édition du jeu de rôle le plus populaire du monde (voir la licence pour plus d'informations) qui a été conçue pour être rapide, facile à jouer et approprié pour jouer avec des jeunes et moins jeunes.
 
 Le but était de créer un jeu plus simple, mais où toutes les ressources de la cinquième édition (monstres, sorts, aventures & équipement) pourraient être utilisées sans conversion.
 
-### Notes explicatives
+-->
 
-M20 5e sera plus facile à comprendre si vous êtes déjà familier avec les RPG. Pour le lecteur peu familier, les brèves explications suivantes sont offertes :
+# Personnages
+
+Un personnages est défini par les éléments suivants :
 
 <small>**Attributs** & **Compétences**: sont des représentation numérique des capacités physiques et mentales brutes d'un PJ & de son expertise dans des domaines spécifiques, respectivement. Cel correspond à un bonus, qui sera ajouté aux jets de dés.</small>
 
@@ -20,10 +26,6 @@ M20 5e sera plus facile à comprendre si vous êtes déjà familier avec les RPG
 
 <small>**Niveau** : A deux significations différentes, à ne pas confondre. **Le niveau de personnage** est le reflet sa croissance générale suite à l'accumulation **de points d'expérience (XP)** en franchissant des obstacles. **Le niveau de sort** est la mesure de la puissance relative d'un sort.</small>
 
-## Personnages
-
-
-
 ## Attributs
 
 Il y a 4 statistiques : 
@@ -32,6 +34,8 @@ Il y a 4 statistiques :
 * l'Agilité (**AGI**)
 * l'Esprit (**ESP**)
 * la Volonté (**VOL**) 
+
+<div class="page"/>
 
 ## Compétences
 
@@ -54,6 +58,8 @@ Voici des exemples de spécialité dans les connaissances :
 * **Connaissance (Divin)** : Pour tout ce qui à trait aux dieux et aux religions.
 * **Connaissance (Nature)**: Pour tout ce qui a trait à la nature.
 * **Connaissance (Traditions)**: Pour tout ce qui a trait aux connaissances des mythes et légendes.
+
+<div class="page"/>
 
 ## Races
 
@@ -99,6 +105,8 @@ prenez de courtes 3 PV par dé de repos dépensé..
 * **Augmentation du score d'habileté**: Niveau 4, 8, 12, 16, 19
 * **Equipement de départ**: grimoire, baguette, 10 gp, un pack rapide (voir Equipement)
 
+<div class="page"/>
+
 ### Clerc
 
 * **Compétences & maîtrise jds**: Communication ou Connaisance (Divin), Resistance (VOL)
@@ -116,9 +124,11 @@ Chaque personnage à vécu des expérience avant de devenir aventurier.
 
 Ces expériences sont représenté pas **un connaissance** et **deux contacts**.
 
-## Equipement
+<div class="page"/>
 
-### Monnaie
+# Equipement
+
+## Monnaie
 
 Il y a deux types de pièces, les pièces d'or et les pièces d'argents.
 
@@ -126,7 +136,7 @@ Une pièce d'or vaut 10 pièces d'argent (pa).
 
 Le prix minimal est 1 pa.
 
-### Armure
+## Armure
 Le coût de l'armure est égal au bonus CA multiplié par 5 po, au carré.
 
 * **Armure légère**: +1, +2; plus AGI 
@@ -136,7 +146,9 @@ Le coût de l'armure est égal au bonus CA multiplié par 5 po, au carré.
 
 Le bardage pour chevaux coûte 4 fois plus cher que l'armure humaine, et pèse 2 fois plus.
 
-### Armes
+<div class="page"/>
+
+## Armes
 
 Utilisez le tableau ci-dessous pour improviser des armes.
 
@@ -153,7 +165,9 @@ De jet | Permet d'être lancer avec la FOR (ou l'AGI) si également *Légère*
 À distance | Permet des attaques à distances basé sur l'AGI
 Recharge | Requiert une action pour être rechargé, augmente le dé de dégat d'un cran
 
-### Autre équipement
+<div class="page"/>
+
+## Autre équipement
  Pour déterminer un prix raisonnable pour l'équipement, utilisez le tableau suivant (par exemple, un rouleau de lit coûterait 10 gp, puisqu'il s'agit de deux syllabes) :
 
 | Type d'objet | Coût | 
@@ -163,15 +177,17 @@ Recharge | Requiert une action pour être rechargé, augmente le dé de dégat d
 | Outils spécialisés, Animaux | 10 po x nombre de syllabes |
 | Articles de luxe | 25 po x nombre de syllabes |
 | Objets mortels, animaux dangereux | 100 po x nombre de syllabes |
-	 	 	 	 	 	
-### Paquetage rapide
+
+## Paquetage rapide
 Choisissez un paquetage, ou lancez 1d6 pour en sélectionner un au hasard.
 
 * **Pack A** (1-2): sac à dos, poche de ceinture, couvre-lit, lanterne à capuchon, 10 fioles d'huile, silex et acier, pelle, 2 jeux de caltrops, sifflet de signalisation, gourde, rations  (4 jours)
 * **Pack B** (3-4): sac à dos, poche de ceinture, couvre-lit, 10 torches, 4 fioles d'huile, silex et acier, 10 morceaux de craie, 10' steel, miroir, barre à mine, gourde, rations  (4 jours)
 * **Pack C** (5-6): sac à dos, sac de ceinture, couvre-lit, tente, 10 torches, 5 fioles d'huile, flint & steel, corde de 50', grappin, perche de 10', peau d'eau, rations  (4 jours)
 
-## Evolution des personnages
+<div class="page"/>
+
+# Evolution des personnages
 Après chaque rencontre, additionnez la **Valeur de Défi (CR)** de chaque monstre, piège, etc. Multiplié par 10
 
 Lorsque le total = 10 x votre niveau actuel, vous passez au niveau suivant. Réinitialisez le total à 0 après avoir avancé.
@@ -191,9 +207,101 @@ Niveau|Dé de Compétence
 
 Quand un personnage reçoit une augmentation de score de compétence, il gagne soit +1 à un attribut (max 5).
 
-## Règles du jeu
 
-### Résolutions d'actions
+<div class="page"/>
+
+# La magie
+
+Toute magie exige de posséder un pouvoir et de connaitre des formules magiques : une gestuelle et un domaine de pouvoir divin ou arcanique.
+Chaque lanceur de 1er niveau commence par connaître 3 formules magiques, mais doit connaître au moins une gestuelle et un et un domaine pouvoir divin ou arcanique. Ils apprennent de nouvelles formule magique tous les 3 niveaux (3, 6, 9, etc.).
+
+## Lancer un sort 
+
+Pour lancer un sort, vous devez combiner une technique et un domaine, puis un niveau de puissante pour créer l'effet désiré.
+
+Le niveau de puissance dépend du nombre de Points de Magie utilisé pour lancer le sort. Un personnage ne peut investir plus de points de magie dans un sort que sont niveau actuel. Si aucun points de magie est investi dans le sort, un parle alors d'un *tour de magie* qui est en fait une version très mineur du sort.
+
+<div class="page"/>
+
+## Les quatre techniques
+
+* **Améliorer** ("augeo") : Renforcer, Guérir, Agrandir, Réparer, Affûter, etc.
+* **Diminuer** (infirmo) : Affaiblir, endommager, blesser, réduire, briser, émousser, émousser, détériorer, etc.
+* **Communiquer avec** (defero) : Sentir, lire, chercher, informer, déterminer, comprendre, comprendre, etc.
+* **Control** (tempero) : Formez, Maintenez, Commandez, Formez, Dirigez, Dictez, etc. (Le contrôle ne peut être appris qu'après que toutes les autres actions aient été apprises.)
+
+## Les cinq domaines
+
+* **Corp** (corpus) : Des corps d'êtres vivants, des plantes.
+* **Savoir** (mentus) : La pensée, le sentiment et la partie consciente d'une entité.
+* **Esprit** (animosité) : Essence ou âme. (L'esprit ne peut être appris qu'après que vous ayez au moins trois royaumes et trois actions.)
+* **Energie** (navitas) : Le feu, l'eau liquide, l'air, la magie, l'électricité et (en option) le temps.
+* **Matière** ("materia") : Matériaux solides et insensibles comme la pierre, la glace, le métal, le bois, le cuir, le papier, etc.
+
+## Effets des sorts
+
+**Action** : Par défault, lancer un sort requiert **1 ation**.
+
+**Portée** : Par défaut, les sorts ont une portée de 60 pieds.
+
+**Durée** : Par défaut, les sorts ont une durée de 10 minutes, 1 minutes pour les *Tours de Magie (0 PM)*.
+
+> Les sorts avec un effet temporaire, ne peuvent s'appliquer plusieurs fois sur la même cible.
+
+**Composantes** : Tous les sort, requiert une composante **vocale** et une **gestuelle**.
+
+**Dégâts** :  La formule de dégât varie selon le type d'attaque effectué avec le sort. Consultez le tableau suivant : 
+
+Type d'attaque | Une Cible | Plusieurs Cibles
+:--|--:|--:
+Attaque Magique | 1d10 + 1d10/PM | -
+Attaque Magique + Effet | 1d8 + 1d8/PM | -
+Jet de Sauvegarde (Aucuns dégats) | 1d12 + 1d12/PM | 1d8 + 1d8/PM
+Jet de Sauvegarde (Aucuns dégats) + Effet | 1d10 + 1d10/PM | 1d6 + 1d6/PM
+Jet de Sauvegarde (Demi-dégats) | 1d10 + 1d10/PM | 1d6 + 1d6/PM
+Jet de Sauvegarde (Demi-dégats) + Effet | 1d8 + 1d8/PM | 1d4 + 1d4/PM
+
+**Soins** :  Utilisez 1d8 par Point de Magie (il est impossible de faire des soins via Tour de Magie), 1d4 si le sort soigne plusieurs cibles ou s'il ajoute un effet.
+
+
+<!--
+
+|Modificateur aux PM| Action | Portée | Durée | Composantes | Dégâts | Soins | Cilbes
+:--|:--|--:|--:|:--|--:|--:|--:
+-1 | 1 minute | Touché | 1 minutes | Vocale + Gestuelle + Matérielle | 1d8 | 1d6 | Soit même
+0 (*base*) | 1 action | 60 pieds | 10 minutes | Vocale + Gestuelle | 1d10 | 1d8 | 1
++1 | 1 bonus | 300 pieds | 1 heure | Vocale | 1d12 | 1d10 | 2
+
+
+
+
+Spell Level | One Target Save Halves Damage |One Target Save Negates Damage |Several Targets Save Halves Damage |Several Targets Save Negates Damage
+|:--|--:|--:|--:|--:
+Cantrip| — |5 ½ (1d10) |—|3 ½ (1d6)
+1st|11 (2d10)|13 ¾ (3d8)|7 (2d6)|8¾ (2d8)
+2nd|16 ½ (3d10)|20 ⅝ (6d6)|14 (4d6)|17 ½ (5d6)
+3rd|27 ½ (5d10)|33 ¾ (6d10)|21 (6d6)|26 ¼ (4d12)
+4th|33 (6d10)|41 ¼ (10d8)|23 ½ (7d6)|29 ⅜ (8d6)
+5th|44 (8d10)|55 (10d10)|28 (8d6)|35 (10d6)
+6th|55 (10d10)|68 ¾ (15d8)|38 ½ (11d6)|48 ⅛ (14d6)
+7th|60 ½ (11d10)|75 ⅝ (17d8)|42 (12d6)|52 ½ (15d6)
+8th|66 (12d10)|82 ½ (15d10)|45 ½ (13d6)|56 ⅞ (16d6)
+9th|82 ½ (15d10)|103⅛ (16d12)|49 (14d6)|61 ¼ (11d10)
+
+| | Base | +1 PM | +2 PM | +3 PM | +4 PM 
+:--|:--|:--|:--|:--|:--
+Action | 1 action | 1 bonus action | 1 reaction | free action |
+Durée | Minutes | Hours | Days | Weeks | Months
+Cibles | une seule | Plusieurs | Une demi-douzaine | Quelques Douzaine | Une Centaie
+Portée (maximum) | 60 pieds | 300 pieds | 1 miles | 1 Lieue | 1 Plan d'existence
+
+-->
+
+<div class="page"/>
+
+# Règles du jeu
+
+## Résolutions d'actions
 
 Lorsque le Maître de Jeu évalue que le résultat d'une action est incertain, il peut demandé au joueur de procéder à un jet d'Attribut.
 
@@ -205,29 +313,29 @@ Si plus d'une Compétence s'applique, il a avantage sur le jet de son dé de com
 
 Les personnages commencent au niveau 1 avec un **dé de compétence** de **d4**.
 
-### Advantage & Désavantage
+## Advantage & Désavantage
 
 Parfois le GM peut choisir de donner un Avantage ou un Désavantage, pour une action en fonction des circonstances. Ceci implique de rouler 2x le D20 et de prendre le meilleur ou le pire des deux dés.
 **en cas d'opposition avantage contre désavantage la règle ne s applique plus.**
 
-### Degrée de difficultés communs
+## Degrée de difficultés communs
 
 * **Facile**: 10 
 * **Moyen**: 15
 * **Durt**: 20 
 
-### Combat
+## Combat
 Points de vie = (1d8 + bonus FOR)/Niveau. 
 
 * **Bonus attaque de mélée = bonus FOR + bonus de maîtrise**
-* **Bonus att de projectile = bonus AGI + bonus de maîtrise**
-* **Bonus att Magique = bonus ESP + bonus de maîtrise** 
+* **Bonus attaque à distance = bonus AGI + bonus de maîtrise**
+* **Bonus attaque Magique = bonus ESP + bonus de maîtrise** 
 
 Ajoutez le bonus d'attaque au jet de d20. Si la somme est = ou supérieure à la classe d' armure (CA) de votre adversaire, vous toucher. Un 20 naturel est automatiquement un coup critique faisant deux fois plus de dégâts.
 
 Ajoutez le bonus FOR aux dégâts de mêlée et le bonus AGI aux dégâts de projectiles.
 
-**Classe d' Armure (CA) = 10 + bonus Armure + (bonus AGI).**
+**Classe d'Armure (CA) = 10 + bonus Armure + (bonus AGI).**
 
 Si un personnage subit plus de dégats qu'il ne lui reste de points de vie, il blessé :
 * Il est **À Terre[Proned]**
@@ -241,12 +349,15 @@ Si un personnage reçois un 3e point de Blessure :
 * Il sera réanimé automatiquement à la fin du combat (pas avant)
 * Chaque membre du groupe à une **pénalité de 1 XP**
 
+
+<div class="page"/>
+
 > **Règles facultatives**
 > * **Finesse**: Les Guerriers et les Roublards peuvent remplacer leur bonus de FOR par leur bonus AGI pour calculer leur bonus attaque de mélée ( Bonus att de Mélée = bonus AGI + bonus de maîtrise  si ils manient une arme légère.
 > * **Combat à 2 armes**: Les Guerriers et les Roublards peuvent manier 2 armes et peuvent utiliser une action pour attaquer avec leur arme principale, et une action bonus pour attaquer avec leur 2eme arme si et seulement si la 2eme arme est légère. N'ajoutez pas votre modificateur de capacité aux dégâts de la deuxième arme.
 > * **Grand combat d'armes**: Lorsqu'un Guerrier ou un Roublard brandit une arme à deux mains, il peut relancer les résultats 1 et 2 sur ses dés de dégâts, mais vous devez utiliser le nouveau jet.
 
-### Guérison naturelle
+## Guérison naturelle
 Les personnages ont des dés de repos égaux à leur niveau.
 
 **Un repos court** dure 10 min, et un personnage récupère la moitié de leur points de vies manquants.
@@ -254,6 +365,7 @@ Les personnages ont des dés de repos égaux à leur niveau.
 **Un long repos** dure 8 H. Un personnage regagne tous ses points de vie et ses points de magie.
 
 
+<!--
 ### Dangers improvisés et pièges
 Utilisez les informations ci-dessous pour improviser des dégâts pour des choses comme être poussé dans un feu de camp ou tomber dans la lave.
 
@@ -268,72 +380,6 @@ Examples:
 | 5-10 | 3d6 | 6d6 | 16d6 |
 | 11-16 | 6d6 | 16d6 | 28d6 |
 | 17-20 | 16d6 | 28d6 | 38d6 |
-
-----
-
-## La magie
-
-Toute magie exige de posséder un pouvoir et de connaitre des formules magiques : une gestuelle et un domaine de pouvoir divin ou arcanique.
-Chaque lanceur de 1er niveau commence par connaître 3 formules magiques, mais doit connaître au moins une gestuelle et un et un domaine pouvoir divin ou arcanique. Ils apprennent de nouvelles formule magique tous les 3 niveaux (3, 6, 9, etc.).
-
-### Les quatre techniques
-
-* **Améliorer** ("augeo") : Renforcer, Guérir, Agrandir, Réparer, Affûter, etc.
-* **Diminuer** (infirmo) : Affaiblir, endommager, blesser, réduire, briser, émousser, émousser, détériorer, etc.
-* **Communiquer avec** (defero) : Sentir, lire, chercher, informer, déterminer, comprendre, comprendre, etc.
-* **Control** (tempero) : Formez, Maintenez, Commandez, Formez, Dirigez, Dictez, etc. (Le contrôle ne peut être appris qu'après que toutes les autres actions aient été apprises.)
-
-### Les cinq domaines
-
-* **Corp** (corpus) : Des corps d'êtres vivants, des plantes.
-* **Savoir** (mentus) : La pensée, le sentiment et la partie consciente d'une entité.
-* **Esprit** (animosité) : Essence ou âme. (L'esprit ne peut être appris qu'après que vous ayez au moins trois royaumes et trois actions.)
-* **Energie** (navitas) : Le feu, l'eau liquide, l'air, la magie, l'électricité et (en option) le temps.
-* **Matière** ("materia") : Matériaux solides et insensibles comme la pierre, la glace, le métal, le bois, le cuir, le papier, etc.
-
-Si le lanceur tente simplement d'endommager une autre créature, il lance une attaque magique contre CA. Sinon, la créature doit faire un jet de sauvegarde contre le sort du lanceur de sorts DD. (Le jds approprié est décidé par le MJ. Par exemple, esquiver une boule de feu peut être jds DEX, tandis que résister aux effets du contrôle mental peut être jds ESP.)
-
-### Lancer un sort 
-
-Pour lancer un sort, vous devez combiner une technique et un domaine, puis un niveau de puissante pour créer l'effet désiré.
-
-Le niveau de puissance dépend du nombre de Points de Magie utilisé pour lancer le sort. Un personnage ne peut investir plus de points de magie dans un sort que sont niveau actuel.
-
-Si aucun points de magie est investi dans le sort, un parle alors d'un *tour de magie* qui est en fait une version très mineur du sort.
-
-### Dommages et soins
-
- commencent à 3d6 au niveau de sort 1, et augmentent de 3d6 à chaque niveau de sort.
-
-Pour **d'autres effets** en plus des dégâts simples et de la guérison, lancez le dé à partir de 2d6 au niveau de sort 1, et augmentez de 2d6 à chaque niveau de sort.
-
-* Si la cible rate son jds et que ses pv actuel sont inférieur aux dégâts infligés, elle est instantanément affectée par le sort mais ne subit aucun dommage.
-* Si la cible rate son jds, et que son PV actuel est supérieur aux dégâts infligés, elle subit le jet de dé mais n'est pas affectée par le sort.
-* Si la cible réussit son jet de sauvetage, elle subit la moitié des dégâts infligés.
-
-Les effets positifs utilisés sur les cibles volontaires contournent le besoin de jds et prennent effet immédiatement. Une créature ne peut être transformée qu'en quelque chose d'égal ou de moindre CR/niveau par rapport à elle-même.
-
-**Durée** : Les sorts qui affectent les objets inanimés sont généralement permanents ; les feux créés par magie, etc., s'éteignent naturellement. Les créatures vivantes sont affectées pendant 1 round par niveau de sort du sort qui les affecte. Un lanceur de sorts peut se concentrer sur un sort afin de le garder actif plus longtemps. Pendant sa concentration, il ne peut lancer aucun sort exépté des dégâts simples, sorts de soins & cantrips.
-
-
-<!--
-
-Spell
-Level	One Target
-Save Halves Damage	One Target
-Save Negates Damage	Several Targets
-Save Halves Damage	Several Targets
-Save Negates Damage
-Cantrip	—	5 ½ (1d10)	—	3 ½ (1d6)
-1st	11 (2d10)	13 ¾ (3d8)	7 (2d6)	8¾ (2d8)
-2nd	16 ½ (3d10)	20 ⅝ (6d6)	14 (4d6)	17 ½ (5d6)
-3rd	27 ½ (5d10)	33 ¾ (6d10)	21 (6d6)	26 ¼ (4d12)
-4th	33 (6d10)	41 ¼ (10d8)	23 ½ (7d6)	29 ⅜ (8d6)
-5th	44 (8d10)	55 (10d10)	28 (8d6)	35 (10d6)
-6th	55 (10d10)	68 ¾ (15d8)	38 ½ (11d6)	48 ⅛ (14d6)
-7th	60 ½ (11d10)	75 ⅝ (17d8)	42 (12d6)	52 ½ (15d6)
-8th	66 (12d10)	82 ½ (15d10)	45 ½ (13d6)	56 ⅞ (16d6)
-9th	82 ½ (15d10)	103⅛ (16d12)	49 (14d6)	61 ¼ (11d10)
 
 -->
 ----
