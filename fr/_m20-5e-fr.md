@@ -31,9 +31,11 @@ Un personnages est défini par les éléments suivants :
 
 **Points de vigueur (PV)** : qui représentent l'énergie physique du personnage. 
 
+**Classe d'armures (CA)** : représente le niveau de difficulté pour se faire blessé par une attaque.
+
 ## Attributs
 
-Il y a 4 statistiques : 
+Il y a 4 attributs : 
 
 * la Force (**FOR**) : qui recouvre tout ce qui a trait aux effort physique important et résister a la fatigue.
 * l'Agilité (**AGI**) : qui représente les mouvements rapides, légés et souples.
@@ -70,7 +72,7 @@ Il y a 8 compétences :
 |**Gnomes**  | +1 ESP | Connaissance (Arcane)
 |**Nains**  | +1 STR | Connaissance (Pierres)
 |**Elfes** | +1 AGI | Perception
-|**Demi-dragon** | +1 VOL | Souffle draconique ( _dégât 3dC_)
+|**Demi-elfes** | +1 VOL | +1 Connaissance au choix
 
 ## Classes
 
@@ -78,42 +80,42 @@ Les classes sont **Guérrier, Roublard, Magicien et Clerc**.
 
 ### Guérrier
 
-* **Compétences & maîtrise jds** : Athlétisme, Résistance (FOR), Utilisation d'armes(Toutes), Utilisation d'armures (Toutes les armures, bouclier)
+* **Compétences** : Athlétisme, Résistance (FOR), Utilisation d'armes(Toutes), Utilisation d'armures (Toutes les armures, bouclier)
 * **Endurance améliorée** : +3 à PV par niveau. Lorsque vous
 prenez de courtes 3 PV par dé de repos dépensé..
 * **Attaques multiples** : Vous gagnez une attaque supplémentaire au 5ème , 11ème et 20ème niveau.
 * **Extension de la plage des coups critiques** : Au niveau 3, vous faites un coup critique (crit) si vous faites 19 ou 20. Au niveau 15, si vous faites 18, 19 ou 20.
 * **Augmentation du score d'habileté**: Niveau 4, 8, 10, 12, 14, 16, 19
-* **Equipement de départ** : cotte de mailles (+6 AC armure lourde), bouclier, une arme (et munitions si applicable), 10 gp, un pack rapide (voir Equipement)
+* **Equipem6ent de départ** : cotte de mailles (+6 CA, armure lourde), bouclier, une arme (et munitions si applicable), 10 gp, un pack rapide (voir Équipement)
 
 ### Roublard
 
-* **Compétences & maîtrise jds**: Furtivité, Résistance (AGI), Utilisation d'armes (Simple), Utilisation d'armures (Légère)
+* **Compétences**: Furtivité, Résistance (AGI), Utilisation d'armes (Simple), Utilisation d'armures (Légère)
 * **Attaque furtive**: Chaque fois que vous avez l'avantage, ou que votre cible est distraite dans un combat en mêlée avec un autre ennemi, vous pouvez ajouter[1/2-niveau, arrondi] d6 à vos dégâts.
 * **Action de ruse**: En action bonus, vous pouvez vous Cacher ou Foncer.
 * **Augmentation du score d'habileté**: Niveau 4, 8, 10, 12, 16, 19
-* **Equipement de départ**: armure cuir (+1CA armure légère), une arme (& munitions si applicable), outils de voleurs, 15 gp, un pack rapide (voir Equipement)
+* **Équipement de départ**: armure cuir (+1CA, armure légère), une arme (& munitions si applicable), outils de voleurs, 15 gp, un pack rapide (voir Équipement)
 
 
 ### Magicien
 
-* **Compétences & maîtrise jds**:  Connaissance (Arcane), Résistance (ESP), Utilisation d'armes (Simple)
+* **Compétences**:  Connaissance (Arcane), Résistance (ESP), Utilisation d'armes (Simple)
 * **Style de Sort**: Choisissez **un sort ou un sort mineur (CANTRIP)**, Lancer **le sort** coûte 1 PM de moins.
 * **Sortilège d'Arcane**: Voir rubrique Magie pour plus d'information.
 * **Augmentation du score d'habileté**: Niveau 4, 8, 12, 16, 19
-* **Equipement de départ**: grimoire, baguette, 10 gp, un pack rapide (voir Equipement)
+* **Équipement de départ**: grimoire, baguette, 10 gp, un pack rapide (voir Équipement)
 
 <div class="page"/>
 
 ### Clerc
 
-* **Compétences & maîtrise jds**: Communication ou Connaisance (Divin), Resistance (VOL), Utilisation d'armes (simple), Utilisation d'armures (Moyenne, bouclier)
+* **Compétences**: Communication ou Connaisance (Divin), Resistance (VOL), Utilisation d'armes (simple), Utilisation d'armures (Moyenne, bouclier)
 * **Lancement de sorts Divin**: Voir rubrique Magie pour plus d'information.
 * **Canalisation Divinité**: Vous avez la capacité de canaliser l'énergie positive une fois par court/long repos pour repousser les mort ou Préserver la vie. Au niveau 6, 2x/repos, et au niveau 18,  3 x /repos. Pour :
-    * **repousser les mort** le clerc brandit son symbole sacré forçant tous les morts-vivants dans un rayon de 30 pieds à faire un arrêt ESP (DD 8 + bonus ESP du clerc + compétence du clerc) ou à fuir. Si les morts-vivants obtiennent un 1 lors de leur sauvegarde, ils sont immédiatement détruits. 
-    * **Preserve Life** restaure[5 * niveau] PV, distribuez ces pv aux alliés à moins de 30 pieds.
+    * **Repousser les mort** le clerc brandit son symbole sacré forçant tous les morts-vivants dans un rayon de 30 pieds à faire un arrêt ESP (DD 8 + bonus ESP du clerc + compétence du clerc) ou à fuir. Si les morts-vivants obtiennent un 1 lors de leur sauvegarde, ils sont immédiatement détruits. 
+    * **Préserver la vie** restaure [5 * niveau] PV, distribuez ces pv aux alliés à moins de 30 pieds.
 * **Augmentation du score d'habileté**: Niveau 4, 8, 12, 16, 19
-* **Equipement de départ**: armure d'écaille (+4 AC armure moyenne), bouclier, symbole sacré, masse (arme à une main), 15 gp, un pack rapide (voir Equipement).
+* **Équipement de départ**: armure d'écaille (+4 CA, armure moyenne), bouclier, symbole sacré, masse (arme à une main), 15 gp, un pack rapide (voir Équipement).
 
 ### Historique
 
@@ -123,13 +125,13 @@ Ces expériences sont représenté pas **une connaissance** et **deux contacts**
 
 <div class="page"/>
 
-# Equipement
+# Équipement
 
 ## Monnaie
 
-Il y a deux types de pièces, les pièces d'or et les pièces d'argents.
+Il y a deux types de pièces, les pièces d'or (po) et les pièces d'argents (pa).
 
-Une pièce d'or vaut 10 pièces d'argent (pa). 
+Une pièce d'or (po) vaut 10 pièces d'argent (pa). 
 
 Le prix minimal est 1 pa.
 
@@ -151,7 +153,7 @@ Utilisez le tableau ci-dessous pour improviser des armes.
 
 Type | Dégat | Coût | 
 :--|:--| --:
-Simple | 1d6 | 2po
+Simple | 1d6 | 2 po
 Martiale | 1d8 | 10 po
 
 Propriété | Note |
@@ -165,7 +167,8 @@ Recharge | Requiert une action pour être rechargé, augmente le dé de dégat d
 <div class="page"/>
 
 ## Autre équipement
- Pour déterminer un prix raisonnable pour l'équipement, utilisez le tableau suivant (par exemple, un rouleau de lit coûterait 10 gp, puisqu'il s'agit de deux syllabes) :
+
+Pour déterminer un prix raisonnable pour l'équipement, utilisez le tableau suivant (par exemple, un rouleau de lit coûterait 10 gp, puisqu'il s'agit de deux syllabes) :
 
 | Type d'objet | Coût | 
 |:-:|:-:|
@@ -176,6 +179,7 @@ Recharge | Requiert une action pour être rechargé, augmente le dé de dégat d
 | Objets mortels, animaux dangereux | 100 po x nombre de syllabes |
 
 ## Paquetage rapide
+
 Choisissez un paquetage, ou lancez 1d6 pour en sélectionner un au hasard.
 
 * **Pack A** (1-2): sac à dos, poche de ceinture, couvre-lit, lanterne à capuchon, 10 fioles d'huile, silex et acier, pelle, 2 jeux de caltrops, sifflet de signalisation, gourde, rations  (4 jours)
@@ -184,7 +188,8 @@ Choisissez un paquetage, ou lancez 1d6 pour en sélectionner un au hasard.
 
 <div class="page"/>
 
-# Evolution des personnages
+# Évolution des personnages
+
 Après chaque rencontre, additionnez la **Valeur de Défi (CR)** de chaque monstre, piège, etc. Multiplié par 10
 
 Lorsque le total = 10 x votre niveau actuel, vous passez au niveau suivant. Réinitialisez le total à 0 après avoir avancé.
@@ -192,6 +197,7 @@ Lorsque le total = 10 x votre niveau actuel, vous passez au niveau suivant. Réi
 **Points de vie (PV)**: 1d8 + bonus de FOR par niveau
 
 **Dé de Compétence par niveau**: 
+
 Niveau|Dé de Compétence
 :--|--:
 1-4|d4
@@ -202,21 +208,26 @@ Niveau|Dé de Compétence
 
 **Augmentation du score d'habileté**
 
-Quand un personnage reçoit une augmentation de score de compétence, il gagne soit +1 à un attribut (max 5).
+Quand un personnage reçoit une augmentation de score de compétence, il gagne +1 à un attribut (max 5).
 
 
 <div class="page"/>
 
 # La magie
 
-Toute magie exige de posséder un pouvoir et de connaitre des formules magiques : une gestuelle et un domaine de pouvoir divin ou arcanique.
-Chaque lanceur de 1er niveau commence par connaître 3 formules magiques, mais doit connaître au moins une gestuelle et un et un domaine pouvoir divin ou arcanique. Ils apprennent de nouvelles formule magique tous les 3 niveaux (3, 6, 9, etc.).
+Toute magie exige de posséder un pouvoir et de connaitre des formules magiques : une technique et un domaine de pouvoir divin ou arcanique.
+
+Chaque lanceur de 1er niveau commence par connaître 3 formules magiques, mais doit connaître au moins une technique et  un domaine pouvoir divin ou arcanique. 
+
+Ils apprennent de nouvelles formule magique tous les 3 niveaux (3, 6, 9, etc.).
 
 ## Lancer un sort 
 
 Pour lancer un sort, vous devez combiner une technique et un domaine, puis un niveau de puissante pour créer l'effet désiré.
 
-Le niveau de puissance dépend du nombre de Points de Magie utilisé pour lancer le sort. Un personnage ne peut investir plus de points de magie dans un sort que sont niveau actuel. Si aucun points de magie est investi dans le sort, un parle alors d'un *tour de magie* qui est en fait une version très mineur du sort.
+Le niveau de puissance dépend du nombre de Points de Magie utilisé pour lancer le sort. Un personnage ne peut investir plus de points de magie dans un sort que sont niveau actuel. 
+
+Si aucun points de magie est investi dans le sort, un parle alors d'un *tour de magie* qui est en fait une version très mineur du sort.
 
 <div class="page"/>
 
