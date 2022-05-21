@@ -21,7 +21,7 @@ Un personnages est défini par les éléments suivants :
 
 **Attributs** : Représentation numérique des capacités physiques et mentales brutes d'un PJ. Elle correspond à un bonus, qui sera ajouté aux jets de dés.
 
-**Compétences**: sont des représentation numérique de son expertise dans des domaines spécifiques. Lorsqu'une compétences est en lien avec les circonstances d'un jet de dé, le joueur peu ajouter le résultat de son dé de compétences.
+**Compétences**: Expertise dans des domaines spécifiques. Lorsqu'une compétences est en lien avec les circonstances d'un jet de dé, le joueur peu ajouter le résultat de son dé de compétences (_dC_).
 
 **Race**: L'espèce fantastique à laquelle appartient un personnage.
 
@@ -29,38 +29,36 @@ Un personnages est défini par les éléments suivants :
 
 **Niveau** : Represente la croissance générale suite à l'accumulation **de points d'expérience (XP)** en franchissant des obstacles.
 
+**Points de vigueur (PV)** : qui représentent l'énergie physique du personnage. 
+
 ## Attributs
 
 Il y a 4 statistiques : 
 
-* la Force (**FOR**) : qui recouvre tout ce qui a trait
-* l'Agilité (**AGI**)
-* l'Esprit (**ESP**)
-* la Volonté (**VOL**) 
+* la Force (**FOR**) : qui recouvre tout ce qui a trait aux effort physique important et résister a la fatigue.
+* l'Agilité (**AGI**) : qui représente les mouvements rapides, légés et souples.
+* l'Esprit (**ESP**) : qui représente les facultés intellectuelles et les manières de penser.
+* la Volonté (**VOL**) : qui retiennent la disposition de caractère qui porte à prendre des décisions avec fermeté et à les conduire à leur terme sans faiblesse, en surmontant tous les obstacles.
+    
 
 <div class="page"/>
 
 ## Compétences
 
-Il y a 6 compétences : 
+Il y a 8 compétences : 
 
 * **Athlétisme** :  Pour tout ce qui a trait aux exploits physiques.
 * **Communication** : Pour tout ce qui a trait à interragir avec les autres.
 * **Connaissance (Spécialisation)** : Pour tout ce qui à trait aux connaissance en vers une spécialisation précise.
+    > Exemple : Arcane, Divin, Nature, Traditions.
 * **Furtivité** : Pour tout ce qui a trait à être discret.
 * **Perception** : Pour tout ce qui a trait aux sens.
 * **Résistance (Attribut)** : Pour tout ce qui a trait à résisté à différents effets.
+* **Utilisation d'armes (Type)** : Pour tout ce qui a trait a savoir manier, reconnaître et entretenir des armes.
+    > Les types d'armes son **simple** et **martiales**.
+* **Utilisation d'armures (Type)** : Pour tout ce qui a trait a utiliser les armures en combats corps a corps.
+    > Les types d'armures sont : Légère, Moyenne, Lourde et Bouclier.
 
-### Connaissance et Résistance
-
-Les compétences de Connaissance et de Resistance differt des autres, car elles peut être pris plusieurs fois par un même personnage, mais doivent être pour une spécialité/statistique différente à chaque fois.
-
-Voici des exemples de spécialité dans les connaissances :
-
-* **Connaissance (Arcane)** : Pour tout ce qui a trait à la magie.
-* **Connaissance (Divin)** : Pour tout ce qui à trait aux dieux et aux religions.
-* **Connaissance (Nature)**: Pour tout ce qui a trait à la nature.
-* **Connaissance (Traditions)**: Pour tout ce qui a trait aux connaissances des mythes et légendes.
 
 <div class="page"/>
 
@@ -68,11 +66,11 @@ Voici des exemples de spécialité dans les connaissances :
 
 |Race | Attributs | Compétences|
 |:--|:--|:--|
-|**Humains** |+1 au choix |
+|**Humains** | +1 au choix | 
 |**Gnomes**  | +1 ESP | Connaissance (Arcane)
 |**Nains**  | +1 STR | Connaissance (Pierres)
 |**Elfes** | +1 AGI | Perception
-|**Demi-dragon** | +1 VOL | 
+|**Demi-dragon** | +1 VOL | Souffle draconique ( _dégât 3dC_)
 
 ## Classes
 
@@ -80,8 +78,7 @@ Les classes sont **Guérrier, Roublard, Magicien et Clerc**.
 
 ### Guérrier
 
-* **Compétences & maîtrise jds** : Athlétisme, Résistance (FOR)
-* **Maîtrise des armures** : Toutes les armures, bouclier.
+* **Compétences & maîtrise jds** : Athlétisme, Résistance (FOR), Utilisation d'armes(Toutes), Utilisation d'armures (Toutes les armures, bouclier)
 * **Endurance améliorée** : +3 à PV par niveau. Lorsque vous
 prenez de courtes 3 PV par dé de repos dépensé..
 * **Attaques multiples** : Vous gagnez une attaque supplémentaire au 5ème , 11ème et 20ème niveau.
@@ -91,18 +88,16 @@ prenez de courtes 3 PV par dé de repos dépensé..
 
 ### Roublard
 
-* **Compétences & maîtrise jds**: Furtivité, Résistance (AGI)
-* **Maitrise des armures :** Armure légère
+* **Compétences & maîtrise jds**: Furtivité, Résistance (AGI), Utilisation d'armes (Simple), Utilisation d'armures (Légère)
 * **Attaque furtive**: Chaque fois que vous avez l'avantage, ou que votre cible est distraite dans un combat en mêlée avec un autre ennemi, vous pouvez ajouter[1/2-niveau, arrondi] d6 à vos dégâts.
-* **Action de ruse**: En bonus, vous pouvez vous Cacher ou Foncer.
+* **Action de ruse**: En action bonus, vous pouvez vous Cacher ou Foncer.
 * **Augmentation du score d'habileté**: Niveau 4, 8, 10, 12, 16, 19
 * **Equipement de départ**: armure cuir (+1CA armure légère), une arme (& munitions si applicable), outils de voleurs, 15 gp, un pack rapide (voir Equipement)
 
 
 ### Magicien
 
-* **Compétences & maîtrise jds**:  Connaissance (Arcane), Résistance (ESP)
-* **Maitrise des armures**: non
+* **Compétences & maîtrise jds**:  Connaissance (Arcane), Résistance (ESP), Utilisation d'armes (Simple)
 * **Style de Sort**: Choisissez **un sort ou un sort mineur (CANTRIP)**, Lancer **le sort** coûte 1 PM de moins.
 * **Sortilège d'Arcane**: Voir rubrique Magie pour plus d'information.
 * **Augmentation du score d'habileté**: Niveau 4, 8, 12, 16, 19
@@ -112,8 +107,7 @@ prenez de courtes 3 PV par dé de repos dépensé..
 
 ### Clerc
 
-* **Compétences & maîtrise jds**: Communication ou Connaisance (Divin), Resistance (VOL)
-* **Maitrise des armures**: Armure moyenne, bouclier
+* **Compétences & maîtrise jds**: Communication ou Connaisance (Divin), Resistance (VOL), Utilisation d'armes (simple), Utilisation d'armures (Moyenne, bouclier)
 * **Lancement de sorts Divin**: Voir rubrique Magie pour plus d'information.
 * **Canalisation Divinité**: Vous avez la capacité de canaliser l'énergie positive une fois par court/long repos pour repousser les mort ou Préserver la vie. Au niveau 6, 2x/repos, et au niveau 18,  3 x /repos. Pour :
     * **repousser les mort** le clerc brandit son symbole sacré forçant tous les morts-vivants dans un rayon de 30 pieds à faire un arrêt ESP (DD 8 + bonus ESP du clerc + compétence du clerc) ou à fuir. Si les morts-vivants obtiennent un 1 lors de leur sauvegarde, ils sont immédiatement détruits. 
@@ -125,7 +119,7 @@ prenez de courtes 3 PV par dé de repos dépensé..
 
 Chaque personnage à vécu des expérience avant de devenir aventurier.
 
-Ces expériences sont représenté pas **un connaissance** et **deux contacts**.
+Ces expériences sont représenté pas **une connaissance** et **deux contacts**.
 
 <div class="page"/>
 
@@ -164,7 +158,7 @@ Propriété | Note |
 :--|:--
 Légerte | Permet d'utilsé l'AGI à la place de la FOR
 Lourde | Augmente le dé de dégat d'un cran, mais requiert deux mains
-De jet | Permet d'être lancer avec la FOR (ou l'AGI) si également *Légère*
+De jet | Permet d'être lancer avec la FOR (ou l'AGI si également *Légère*)
 À distance | Permet des attaques à distances basé sur l'AGI
 Recharge | Requiert une action pour être rechargé, augmente le dé de dégat d'un cran
 
@@ -197,7 +191,7 @@ Lorsque le total = 10 x votre niveau actuel, vous passez au niveau suivant. Réi
 
 **Points de vie (PV)**: 1d8 + bonus de FOR par niveau
 
-**Bonus de Compétence par niveau**: 
+**Dé de Compétence par niveau**: 
 Niveau|Dé de Compétence
 :--|--:
 1-4|d4
