@@ -236,7 +236,7 @@ Si aucun points de magie est investi dans le sort, un parle alors d'un *tour de 
 * **Améliorer** ("augeo") : Renforcer, Guérir, Agrandir, Réparer, Affûter, etc.
 * **Diminuer** (infirmo) : Affaiblir, endommager, blesser, réduire, briser, émousser, émousser, détériorer, etc.
 * **Communiquer avec** (defero) : Sentir, lire, chercher, informer, déterminer, comprendre, comprendre, etc.
-* **Control** (tempero) : Formez, Maintenez, Commandez, Formez, Dirigez, Dictez, etc. (Le contrôle ne peut être appris qu'après que toutes les autres actions aient été apprises.)
+* **Contrôler** (tempero) : Formez, Maintenez, Commandez, Formez, Dirigez, Dictez, etc. (Le contrôle ne peut être appris qu'après que toutes les autres actions aient été apprises.)
 
 ## Les cinq domaines
 
