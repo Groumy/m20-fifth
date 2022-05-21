@@ -1,4 +1,5 @@
 # Donjon et Dragons
+
 ## Pour mes petits trésors !
 
 ![](https://www.gameoutonline.com/wp-content/uploads/2020/01/DD-dnd-kids-abc.jpg)
@@ -18,19 +19,21 @@ Le but était de créer un jeu plus simple, mais où toutes les ressources de la
 
 Un personnages est défini par les éléments suivants :
 
-<small>**Attributs** & **Compétences**: sont des représentation numérique des capacités physiques et mentales brutes d'un PJ & de son expertise dans des domaines spécifiques, respectivement. Cel correspond à un bonus, qui sera ajouté aux jets de dés.</small>
+**Attributs** : Représentation numérique des capacités physiques et mentales brutes d'un PJ. Elle correspond à un bonus, qui sera ajouté aux jets de dés.
 
-<small>**Race**: L'espèce fantastique à laquelle appartient un personnage.</small>
+**Compétences**: sont des représentation numérique de son expertise dans des domaines spécifiques. Lorsqu'une compétences est en lien avec les circonstances d'un jet de dé, le joueur peu ajouter le résultat de son dé de compétences.
 
-<small>**Classe**: Un ensemble de talents et d'aptitudes qui décrivent le métier ou le rôle d'aventurier d'un personnage.</small>
+**Race**: L'espèce fantastique à laquelle appartient un personnage.
 
-<small>**Niveau** : A deux significations différentes, à ne pas confondre. **Le niveau de personnage** est le reflet sa croissance générale suite à l'accumulation **de points d'expérience (XP)** en franchissant des obstacles. **Le niveau de sort** est la mesure de la puissance relative d'un sort.</small>
+**Classe**: Un ensemble de talents et d'aptitudes qui décrivent le métier ou le rôle d'aventurier d'un personnage.
+
+**Niveau** : Represente la croissance générale suite à l'accumulation **de points d'expérience (XP)** en franchissant des obstacles.
 
 ## Attributs
 
 Il y a 4 statistiques : 
 
-* la Force (**FOR**) 
+* la Force (**FOR**) : qui recouvre tout ce qui a trait
 * l'Agilité (**AGI**)
 * l'Esprit (**ESP**)
 * la Volonté (**VOL**) 
