@@ -64,9 +64,9 @@ Il y a 8 compétences :
 
 ## Races
 
-|Race | Attributs | Compétences|
-|:--|:--|:--|
-|**Humains** | +1 au choix | 
+|Race | Attributs | Compétences| Habileté spécial 
+|:--|:--|:--|:--|
+|**Humains** | +1 au choix |  -  |
 |**Gnomes**  | +1 ESP | Connaissance (Arcane)
 |**Nains**  | +1 STR | Connaissance (Pierres)
 |**Elfes** | +1 AGI | Perception
